@@ -1,0 +1,130 @@
+header {
+  .topbar {
+    background-color: black;
+    a {
+      color: white;
+
+      &:hover {
+        color: #bf9b30;
+        i {
+          color: #bf9b30 !important;
+        }
+      }
+    }
+
+    ul {
+      display: flex;
+
+      div {
+        display: flex;
+        align-items: center;
+
+        li {
+          display: flex;
+          align-items: center;
+          margin: 10px 40px;
+
+          a {
+            i {
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+
+      #left-top {
+        margin-right: auto;
+
+        li {
+          margin-left: 0;
+        }
+      }
+
+      #right-top {
+        margin-left: auto;
+
+        .SearchBar {
+          display: flex;
+          .SearchText {
+            border: none;
+            padding: 5px;
+            font-weight: bold;
+            padding-left: 15px;
+            border-radius: 15px 0px 0px 15px;
+          }
+
+          .SearchButton {
+            border-radius: 0 15px 15px 0;
+            background-color: #ffffff;
+            font-weight: bold;
+            border-radius: 0 16px 16px 0;
+            border: none;
+            font-size: 16px;
+            padding: 5px 10px;
+          }
+        }
+
+        li {
+          margin-right: 0;
+
+          i {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar {
+    .navbar-content {
+      ul {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+
+
+        li {
+          display: flex;
+          align-items: center;
+          margin: 40px;
+
+
+          &:not(.logo-li) {
+            flex: 1;
+          }
+
+          &:hover {
+            cursor: pointer;
+            a {
+              color: #bf9b30;
+            }
+          }
+
+          a {
+            font-size: 18px;
+
+            i {
+              padding-left: 5px;
+            }
+
+            img {
+              padding: 5px 0;
+              max-height: 120px;
+            }
+          }
+        }
+
+        .logo-li {
+          margin-top: 0;
+          margin-bottom: 0;
+
+          a {
+            height: 120px;
+          }
+        }
+      }
+    }
+  }
+}

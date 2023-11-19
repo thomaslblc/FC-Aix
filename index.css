@@ -1,0 +1,536 @@
+@font-face {
+  font-family: "Dusha";
+  src: url(".//fonts/DushaRegular.woff2") format("woff2"), url(".//fonts/DushaRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(".//fonts/Lato-BoldItalic.woff2") format("woff2"), url(".//fonts/Lato-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(".//fonts/Lato-Bold.woff2") format("woff2"), url(".//fonts/Lato-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dusha";
+  src: url(".//fonts/DushaRegular.woff2") format("woff2"), url(".//fonts/DushaRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(".//fonts/Lato-Italic.woff2") format("woff2"), url(".//fonts/Lato-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(".//fonts/Lato-Light.woff2") format("woff2"), url(".//fonts/Lato-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(".//fonts/Lato-LightItalic.woff2") format("woff2"), url(".//fonts/Lato-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(".//fonts/Lato-Regular.woff2") format("woff2"), url(".//fonts/Lato-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(".//fonts/Lato-Semibold.woff2") format("woff2"), url(".//fonts/Lato-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(".//fonts/Lato-SemiboldItalic.woff2") format("woff2"), url(".//fonts/Lato-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gentium";
+  src: url(".//fonts/GentiumBasic-Bold.woff2") format("woff2"), url(".//fonts/GentiumBasic-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gentium";
+  src: url(".//fonts/GentiumBasic.woff2") format("woff2"), url(".//fonts/GentiumBasic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gentium";
+  src: url(".//fonts/GentiumBasic-BoldItalic.woff2") format("woff2"), url(".//fonts/GentiumBasic-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gentium";
+  src: url(".//fonts/GentiumBasic-Italic.woff2") format("woff2"), url(".//fonts/GentiumBasic-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  line-height: 1.7em;
+  margin: 0;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 20px;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-family: "Gentium", sans-serif;
+  color: #ffb615;
+}
+h2 strong {
+  font-family: "Dusha", sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.button {
+  padding: 5px 15px;
+  background-color: transparent;
+  border-radius: 25px;
+}
+.button.c1 {
+  color: #000000;
+  border: 1px solid #000000;
+}
+.button.c1:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.button.c2 {
+  color: #ffb615;
+  border: 1px solid #ffb615;
+}
+.button.c2:hover {
+  background-color: #ffb615;
+  color: #000000;
+}
+.button.c3 {
+  color: #8d042d;
+  border: 1px solid #8d042d;
+}
+.button.c3:hover {
+  background-color: #8d042d;
+  color: #ffffff;
+}
+
+.inner {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+header .topbar {
+  background-color: black;
+}
+header .topbar a {
+  color: white;
+}
+header .topbar a:hover {
+  color: #bf9b30;
+}
+header .topbar a:hover i {
+  color: #bf9b30 !important;
+}
+header .topbar ul {
+  display: flex;
+}
+header .topbar ul div {
+  display: flex;
+  align-items: center;
+}
+header .topbar ul div li {
+  display: flex;
+  align-items: center;
+  margin: 10px 40px;
+}
+header .topbar ul div li a i {
+  padding-left: 10px;
+}
+header .topbar ul #left-top {
+  margin-right: auto;
+}
+header .topbar ul #left-top li {
+  margin-left: 0;
+}
+header .topbar ul #right-top {
+  margin-left: auto;
+}
+header .topbar ul #right-top .SearchBar {
+  display: flex;
+}
+header .topbar ul #right-top .SearchBar .SearchText {
+  border: none;
+  padding: 5px;
+  font-weight: bold;
+  padding-left: 15px;
+  border-radius: 15px 0px 0px 15px;
+}
+header .topbar ul #right-top .SearchBar .SearchButton {
+  border-radius: 0 15px 15px 0;
+  background-color: #ffffff;
+  font-weight: bold;
+  border-radius: 0 16px 16px 0;
+  border: none;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+header .topbar ul #right-top li {
+  margin-right: 0;
+}
+header .topbar ul #right-top li i {
+  color: white;
+}
+header .navbar .navbar-content ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+header .navbar .navbar-content ul li {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+}
+header .navbar .navbar-content ul li:not(.logo-li) {
+  flex: 1;
+}
+header .navbar .navbar-content ul li:hover {
+  cursor: pointer;
+}
+header .navbar .navbar-content ul li:hover a {
+  color: #bf9b30;
+}
+header .navbar .navbar-content ul li a {
+  font-size: 18px;
+}
+header .navbar .navbar-content ul li a i {
+  padding-left: 5px;
+}
+header .navbar .navbar-content ul li a img {
+  padding: 5px 0;
+  max-height: 120px;
+}
+header .navbar .navbar-content ul .logo-li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+header .navbar .navbar-content ul .logo-li a {
+  height: 120px;
+}
+
+.bloc-actu {
+  background-color: black;
+  text-align: center;
+  max-width: 100%;
+  padding-bottom: 70px;
+}
+.bloc-actu .inner .news-container {
+  display: flex;
+  justify-content: space-between;
+}
+.bloc-actu .inner .news-container .news-slider {
+  display: flex;
+  align-items: flex-start;
+  width: 1020px;
+  position: relative;
+}
+.bloc-actu .inner .news-container .news-slider:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.bloc-actu .inner .news-container .news-slider:hover .more {
+  color: #ffb615;
+}
+.bloc-actu .inner .news-container .news-slider img {
+  width: 1020px;
+  height: 640px;
+  object-fit: cover;
+}
+.bloc-actu .inner .news-container .news-slider .news-slider-info {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  color: #ffffff;
+  height: 640px;
+  width: 100%;
+}
+.bloc-actu .inner .news-container .news-slider .news-slider-info .news-slider-category {
+  background-color: #ffb615;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 2px 5px;
+  position: absolute;
+  z-index: 5;
+  top: 1em;
+  left: 1em;
+  color: #000000;
+  font-family: "Dusha", sans-serif;
+  font-size: 22px;
+}
+.bloc-actu .inner .news-container .news-slider .news-slider-info .news-slider-title {
+  position: absolute;
+  z-index: 5;
+  bottom: 0;
+  text-align: left;
+  padding: 0 1em;
+  max-width: 85%;
+}
+.bloc-actu .inner .news-container .news-slider .news-slider-info .news-slider-title h3 {
+  font-size: 60px;
+  font-family: "Dusha", sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+.bloc-actu .inner .news-container .news-slider .news-slider-info .news-slider-title p {
+  font-size: 22px;
+  font-family: "Dusha", sans-serif;
+}
+.bloc-actu .inner .news-container .news-list {
+  background-color: #ffffff;
+  width: 290px;
+  height: 640px;
+  overflow-y: hidden;
+}
+.bloc-actu .inner .news-container .news-list .news-list-title {
+  font-family: "Dusha", sans-serif;
+  padding: 10px;
+  border-bottom: 5px solid #000000;
+  font-size: 30px;
+}
+.bloc-actu .inner .news-container .news-list ul .news-item {
+  border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+}
+.bloc-actu .inner .news-container .news-list ul .news-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out;
+}
+.bloc-actu .inner .news-container .news-list ul .news-item:nth-child(odd) .square {
+  background-color: #8d042d;
+}
+.bloc-actu .inner .news-container .news-list ul .news-item a {
+  padding: 5px;
+  overflow: hidden;
+  width: 100%;
+  text-align: left;
+  align-items: baseline;
+  display: flex;
+}
+.bloc-actu .inner .news-container .news-list ul .news-item a .square {
+  background-color: #ffb615;
+  width: 8px;
+  height: 8px;
+  aspect-ratio: 1;
+  display: block;
+  margin: 8px;
+  position: relative;
+  bottom: 2px;
+}
+.bloc-actu .inner .news-container .news-list ul .news-item a .news-sub {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+}
+
+.bloc-matchs {
+  padding-bottom: 70px;
+}
+.bloc-matchs .bloc-matchs-content .match-head {
+  text-align: center;
+}
+.bloc-matchs .bloc-matchs-content .match-head h2 {
+  color: #8d042d;
+}
+.bloc-matchs .bloc-matchs-content .match-head h2 strong {
+  color: #000000;
+}
+.bloc-matchs .bloc-matchs-content .match-head ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2rem auto;
+}
+.bloc-matchs .bloc-matchs-content .match-head ul .matchs-filter {
+  background-color: transparent;
+  border: 2px solid #8d042d;
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: #8d042d;
+}
+.bloc-matchs .bloc-matchs-content .match-head ul .matchs-filter:hover {
+  background-color: #8d042d;
+  color: #ffffff;
+  cursor: pointer;
+}
+.bloc-matchs .bloc-matchs-content .match-head ul .matchs-filter.filter-active {
+  background-color: #8d042d;
+  color: #ffffff;
+}
+.bloc-matchs .bloc-matchs-content .match-main {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard,
+.bloc-matchs .bloc-matchs-content .match-main .next-match {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 25%;
+  text-align: center;
+  padding: 0 1em 1em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match h3,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard h3,
+.bloc-matchs .bloc-matchs-content .match-main .next-match h3 {
+  font-size: 22px;
+  font-family: "Dusha", sans-serif;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.last-match img,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match img,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.last-match img {
+  width: auto;
+  height: 100px;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.last-match p,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match p,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.last-match p {
+  margin: 0;
+  font-size: 16px;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-result,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match .last-match-result,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-result img,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match .last-match-result img,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-result img {
+  width: auto;
+  height: 80px;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-result .score,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match .last-match-result .score,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-result .score {
+  font-family: "Dusha", sans-serif;
+  font-size: 28px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 5px 12px;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-teams,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match .last-match-teams,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-teams p,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match .last-match-teams p,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-teams p {
+  font-family: "Dusha", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-teams p.versus,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match .last-match-teams p.versus,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-teams p.versus {
+  font-family: "Gentium";
+  color: #ffb615;
+  text-transform: lowercase;
+  font-size: 18px;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.next-match,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard.next-match,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match {
+  width: 40%;
+}
+
+.bloc-billetterie {
+  padding-bottom: 70px;
+  background-color: black;
+  max-width: 100%;
+  text-align: center;
+}
+.bloc-billetterie .bloc-billetterie-content h2 {
+  color: #8d042d;
+  margin-bottom: 2rem;
+}
+.bloc-billetterie .bloc-billetterie-content h2 strong {
+  color: #000000;
+}
+
+/*# sourceMappingURL=index.css.map */

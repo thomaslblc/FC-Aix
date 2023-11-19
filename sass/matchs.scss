@@ -1,0 +1,125 @@
+.bloc-matchs {
+  padding-bottom: $space-between-section;
+
+  .bloc-matchs-content {
+    .match-head {
+      text-align: center;
+
+      h2 {
+        color: $color-3;
+        strong {
+          color: #000000;
+        }
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        max-width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 2rem auto;
+
+        .matchs-filter {
+          background-color: transparent;
+          border: 2px solid $color-3;
+          border-radius: 5px;
+          padding: 2px 5px;
+          color: $color-3;
+
+          &:hover {
+            background-color: $color-3;
+            color: #ffffff;
+            cursor: pointer;
+          }
+
+          &.filter-active {
+            background-color: $color-3;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    .match-main {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+
+      .last-match,
+      .leaderboard,
+      .next-match {
+        border: 1px solid #000000;
+        border-radius: 10px;
+        width: 25%;
+        text-align: center;
+        padding: 0 1em 1em;
+        box-shadow: 2px 2px 2px rgba(#000000, .4);
+
+        h3 {
+          font-size: 22px;
+          font-family: $ff-strong;
+        }
+
+        &.last-match {
+          img {
+            width: auto;
+            height: 100px;
+          }
+
+          p {
+            margin: 0;
+            font-size: 16px;
+          }
+
+          .last-match-result {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+              width: auto;
+              height: 80px;
+            }
+
+            .score {
+              font-family: $ff-strong;
+              font-size: 28px;
+              border: 1px solid rgba(#000000, 0.3);
+              padding: 5px 12px;
+            }
+          }
+
+          .last-match-teams {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 35%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1rem;
+
+            p {
+              font-family: $ff-strong;
+              font-size: 24px;
+              text-transform: uppercase;
+
+              &.versus {
+                font-family: "Gentium";
+                color: $color-2;
+                text-transform: lowercase;
+                font-size: 18px;
+              }
+            }
+          }
+
+          
+        }
+
+        &.next-match {
+          width: 40%;
+        }
+      }
+    }
+  }
+}
