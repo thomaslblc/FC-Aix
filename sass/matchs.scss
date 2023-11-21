@@ -1,5 +1,6 @@
 .bloc-matchs {
   padding-bottom: $space-between-section;
+  background-color: #f1f1f1;
 
   .bloc-matchs-content {
     .match-head {
@@ -21,9 +22,8 @@
         margin: 2rem auto;
 
         .matchs-filter {
-          background-color: transparent;
+          background-color: #ffffff;
           border: 2px solid $color-3;
-          border-radius: 5px;
           padding: 2px 5px;
           color: $color-3;
 
@@ -47,14 +47,12 @@
       justify-content: space-between;
 
       .last-match,
-      .leaderboard,
+      .leaderboard-container,
       .next-match {
-        border: 1px solid #000000;
-        border-radius: 10px;
         width: 25%;
         text-align: center;
         padding: 0 1em 1em;
-        box-shadow: 2px 2px 2px rgba(#000000, .4);
+        background-color: #ffffff;
 
         h3 {
           font-size: 22px;
@@ -62,9 +60,13 @@
         }
 
         &.last-match {
-          img {
-            width: auto;
-            height: 100px;
+          .competition-infos {
+            .last-match-stadium {
+              font-family: "Gentium";
+              font-style: italic;
+              font-weight: bold;
+              font-size: 18px;
+            }
           }
 
           p {
@@ -106,18 +108,108 @@
 
               &.versus {
                 font-family: "Gentium";
+                color: $color-3;
+                text-transform: lowercase;
+                font-size: 18px;
+              }
+            }
+          }
+        }
+
+        &.next-match {
+          width: 40%;
+          background-color: #000000;
+          color: #ffffff;
+
+          .next-match-infos {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+              width: auto;
+              height: 120px;
+            }
+
+            .competition-infos {
+              p {
+                margin: 0;
+              }
+
+              .next-match-stadium {
+                font-family: "Gentium";
+                font-style: italic;
+                font-weight: bold;
+                font-size: 18px;
+              }
+            }
+          }
+          .next-match-teams {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 25%;
+            margin-left: auto;
+            margin-right: auto;
+
+            p {
+              font-family: $ff-strong;
+              font-size: 35px;
+              text-transform: uppercase;
+
+              &.versus {
+                font-family: "Gentium";
                 color: $color-2;
                 text-transform: lowercase;
                 font-size: 18px;
               }
             }
           }
-
-          
         }
 
-        &.next-match {
-          width: 40%;
+        &.leaderboard-container {
+          padding-left: 0;
+          padding-right: 0;
+          
+          .leaderboard-row {
+            display: flex;
+            justify-content: space-between;
+            max-width: 100%;
+            align-items: center;
+            background-color: #f8f8f8;
+            padding: 5px 0;
+           
+            &:last-child {
+              margin-bottom: 1rem;
+            }
+
+            &:nth-child(even) {
+              background-color: #ffffff;
+            }
+
+            .position,
+            .team-name,
+            .points {
+              font-weight: bold;
+            }
+            .position {
+              width: 20%;
+              padding-left: 5%;
+              text-align: right;
+            }
+
+            .team-name {
+              width: 70%;
+              text-align: left;
+              padding-left: 5%;
+              padding-right: 5%;
+            }
+
+            .points {
+              width: 15%;
+              text-align: left;
+            }
+          }
         }
       }
     }

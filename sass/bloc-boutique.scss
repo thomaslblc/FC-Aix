@@ -1,0 +1,50 @@
+.bloc-boutique {
+    padding-bottom: $space-between-section;
+    background-color: black;
+    max-width: 100%;
+    text-align: center;
+  
+    .bloc-boutique-content {
+      
+      h2 {
+          color: $color-2;
+          margin-bottom: 2rem;
+          strong {
+            color: #ffffff;
+          }
+        }
+
+        .container-produits {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          column-gap: 20px;
+          justify-items: center;
+
+          .produit {
+            background-color: #222222;
+            max-width: 80%;
+            overflow: hidden;
+            position: relative;
+            border-radius: 300px;
+
+            img {
+              width: auto;
+              height: 300px;
+            }
+
+            &:first-child {
+              background-color: $color-3;
+            }
+
+            &:last-child {
+              background-color: $color-2;
+            }
+          }
+        }
+        .accroche {
+          color: #ffffff;
+          font-family: $ff-strong;
+          font-size: 45px;
+        }
+    }
+  }

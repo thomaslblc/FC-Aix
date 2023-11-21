@@ -17,3 +17,12 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+// SLIDER BANNER //
+
+document.addEventListener('DOMContentLoaded', function() {
+    const bannerText = document.getElementById('bannerText');
+    const originalText = bannerText.textContent;
+    const repeatedText = `${originalText} ${originalText} ${originalText}`;
+    bannerText.textContent = repeatedText;
+  });

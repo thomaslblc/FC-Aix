@@ -5,6 +5,14 @@
   padding-bottom: $space-between-section;
 
   .inner {
+
+    h2 {
+      color: $color-2;
+      strong {
+        color: #fff;
+      }
+    }
+
     .news-container {
       display: flex;
       justify-content: space-between;

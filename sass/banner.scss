@@ -1,0 +1,29 @@
+.Aix-Banner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: $color-2;
+  padding: calc($space-between-section / 2);
+  overflow: hidden;
+
+  h1 {
+    font-size: 100px;
+    font-family: $ff-strong;
+    margin: 0;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    white-space: nowrap;
+    animation: slide 10s linear infinite;
+     display: inline-block;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}

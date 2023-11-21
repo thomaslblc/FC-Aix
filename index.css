@@ -130,12 +130,10 @@ h2 {
   font-style: italic;
   letter-spacing: 2px;
   font-family: "Gentium", sans-serif;
-  color: #ffb615;
 }
 h2 strong {
   font-family: "Dusha", sans-serif;
   font-size: 50px;
-  color: #ffffff;
   display: block;
   margin-top: 10px;
   font-style: normal;
@@ -287,6 +285,12 @@ header .navbar .navbar-content ul .logo-li a {
   max-width: 100%;
   padding-bottom: 70px;
 }
+.bloc-actu .inner h2 {
+  color: #ffb615;
+}
+.bloc-actu .inner h2 strong {
+  color: #fff;
+}
 .bloc-actu .inner .news-container {
   display: flex;
   justify-content: space-between;
@@ -399,6 +403,7 @@ header .navbar .navbar-content ul .logo-li a {
 
 .bloc-matchs {
   padding-bottom: 70px;
+  background-color: #f1f1f1;
 }
 .bloc-matchs .bloc-matchs-content .match-head {
   text-align: center;
@@ -418,9 +423,8 @@ header .navbar .navbar-content ul .logo-li a {
   margin: 2rem auto;
 }
 .bloc-matchs .bloc-matchs-content .match-head ul .matchs-filter {
-  background-color: transparent;
+  background-color: #ffffff;
   border: 2px solid #8d042d;
-  border-radius: 5px;
   padding: 2px 5px;
   color: #8d042d;
 }
@@ -439,48 +443,48 @@ header .navbar .navbar-content ul .logo-li a {
   justify-content: space-between;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match,
-.bloc-matchs .bloc-matchs-content .match-main .leaderboard,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container,
 .bloc-matchs .bloc-matchs-content .match-main .next-match {
-  border: 1px solid #000000;
-  border-radius: 10px;
   width: 25%;
   text-align: center;
   padding: 0 1em 1em;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  background-color: #ffffff;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match h3,
-.bloc-matchs .bloc-matchs-content .match-main .leaderboard h3,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container h3,
 .bloc-matchs .bloc-matchs-content .match-main .next-match h3 {
   font-size: 22px;
   font-family: "Dusha", sans-serif;
 }
-.bloc-matchs .bloc-matchs-content .match-main .last-match.last-match img,
-.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match img,
-.bloc-matchs .bloc-matchs-content .match-main .next-match.last-match img {
-  width: auto;
-  height: 100px;
+.bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .competition-infos .last-match-stadium,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.last-match .competition-infos .last-match-stadium,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .competition-infos .last-match-stadium {
+  font-family: "Gentium";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match.last-match p,
-.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match p,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.last-match p,
 .bloc-matchs .bloc-matchs-content .match-main .next-match.last-match p {
   margin: 0;
   font-size: 16px;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-result,
-.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match .last-match-result,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.last-match .last-match-result,
 .bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-result {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-result img,
-.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match .last-match-result img,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.last-match .last-match-result img,
 .bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-result img {
   width: auto;
   height: 80px;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-result .score,
-.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match .last-match-result .score,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.last-match .last-match-result .score,
 .bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-result .score {
   font-family: "Dusha", sans-serif;
   font-size: 28px;
@@ -488,7 +492,7 @@ header .navbar .navbar-content ul .logo-li a {
   padding: 5px 12px;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-teams,
-.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match .last-match-teams,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.last-match .last-match-teams,
 .bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-teams {
   display: flex;
   align-items: center;
@@ -499,29 +503,139 @@ header .navbar .navbar-content ul .logo-li a {
   margin-bottom: 1rem;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-teams p,
-.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match .last-match-teams p,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.last-match .last-match-teams p,
 .bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-teams p {
   font-family: "Dusha", sans-serif;
   font-size: 24px;
   text-transform: uppercase;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-teams p.versus,
-.bloc-matchs .bloc-matchs-content .match-main .leaderboard.last-match .last-match-teams p.versus,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.last-match .last-match-teams p.versus,
 .bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-teams p.versus {
+  font-family: "Gentium";
+  color: #8d042d;
+  text-transform: lowercase;
+  font-size: 18px;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.next-match,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match {
+  width: 40%;
+  background-color: #000000;
+  color: #ffffff;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.next-match .next-match-infos,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match .next-match-infos,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match .next-match-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.next-match .next-match-infos img,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match .next-match-infos img,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match .next-match-infos img {
+  width: auto;
+  height: 120px;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.next-match .next-match-infos .competition-infos p,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match .next-match-infos .competition-infos p,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match .next-match-infos .competition-infos p {
+  margin: 0;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.next-match .next-match-infos .competition-infos .next-match-stadium,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match .next-match-infos .competition-infos .next-match-stadium,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match .next-match-infos .competition-infos .next-match-stadium {
+  font-family: "Gentium";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.next-match .next-match-teams,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match .next-match-teams,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match .next-match-teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.next-match .next-match-teams p,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match .next-match-teams p,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match .next-match-teams p {
+  font-family: "Dusha", sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.next-match .next-match-teams p.versus,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match .next-match-teams p.versus,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match .next-match-teams p.versus {
   font-family: "Gentium";
   color: #ffb615;
   text-transform: lowercase;
   font-size: 18px;
 }
-.bloc-matchs .bloc-matchs-content .match-main .last-match.next-match,
-.bloc-matchs .bloc-matchs-content .match-main .leaderboard.next-match,
-.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match {
-  width: 40%;
+.bloc-matchs .bloc-matchs-content .match-main .last-match.leaderboard-container,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.leaderboard-container,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.leaderboard-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.leaderboard-container .leaderboard-row,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.leaderboard-container .leaderboard-row,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.leaderboard-container .leaderboard-row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 5px 0;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.leaderboard-container .leaderboard-row:last-child,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.leaderboard-container .leaderboard-row:last-child,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.leaderboard-container .leaderboard-row:last-child {
+  margin-bottom: 1rem;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.leaderboard-container .leaderboard-row:nth-child(even),
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.leaderboard-container .leaderboard-row:nth-child(even),
+.bloc-matchs .bloc-matchs-content .match-main .next-match.leaderboard-container .leaderboard-row:nth-child(even) {
+  background-color: #ffffff;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.leaderboard-container .leaderboard-row .position,
+.bloc-matchs .bloc-matchs-content .match-main .last-match.leaderboard-container .leaderboard-row .team-name,
+.bloc-matchs .bloc-matchs-content .match-main .last-match.leaderboard-container .leaderboard-row .points,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.leaderboard-container .leaderboard-row .position,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.leaderboard-container .leaderboard-row .team-name,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.leaderboard-container .leaderboard-row .points,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.leaderboard-container .leaderboard-row .position,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.leaderboard-container .leaderboard-row .team-name,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.leaderboard-container .leaderboard-row .points {
+  font-weight: bold;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.leaderboard-container .leaderboard-row .position,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.leaderboard-container .leaderboard-row .position,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.leaderboard-container .leaderboard-row .position {
+  width: 20%;
+  padding-left: 5%;
+  text-align: right;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.leaderboard-container .leaderboard-row .team-name,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.leaderboard-container .leaderboard-row .team-name,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.leaderboard-container .leaderboard-row .team-name {
+  width: 70%;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.leaderboard-container .leaderboard-row .points,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.leaderboard-container .leaderboard-row .points,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.leaderboard-container .leaderboard-row .points {
+  width: 15%;
+  text-align: left;
 }
 
 .bloc-billetterie {
   padding-bottom: 70px;
-  background-color: black;
   max-width: 100%;
   text-align: center;
 }
@@ -531,6 +645,76 @@ header .navbar .navbar-content ul .logo-li a {
 }
 .bloc-billetterie .bloc-billetterie-content h2 strong {
   color: #000000;
+}
+
+.bloc-boutique {
+  padding-bottom: 70px;
+  background-color: black;
+  max-width: 100%;
+  text-align: center;
+}
+.bloc-boutique .bloc-boutique-content h2 {
+  color: #ffb615;
+  margin-bottom: 2rem;
+}
+.bloc-boutique .bloc-boutique-content h2 strong {
+  color: #ffffff;
+}
+.bloc-boutique .bloc-boutique-content .container-produits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  justify-items: center;
+}
+.bloc-boutique .bloc-boutique-content .container-produits .produit {
+  background-color: #222222;
+  max-width: 80%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 300px;
+}
+.bloc-boutique .bloc-boutique-content .container-produits .produit img {
+  width: auto;
+  height: 300px;
+}
+.bloc-boutique .bloc-boutique-content .container-produits .produit:first-child {
+  background-color: #8d042d;
+}
+.bloc-boutique .bloc-boutique-content .container-produits .produit:last-child {
+  background-color: #ffb615;
+}
+.bloc-boutique .bloc-boutique-content .accroche {
+  color: #ffffff;
+  font-family: "Dusha", sans-serif;
+  font-size: 45px;
+}
+
+.Aix-Banner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffb615;
+  padding: 35px;
+  overflow: hidden;
+}
+.Aix-Banner h1 {
+  font-size: 100px;
+  font-family: "Dusha", sans-serif;
+  margin: 0;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  white-space: nowrap;
+  animation: slide 10s linear infinite;
+  display: inline-block;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
