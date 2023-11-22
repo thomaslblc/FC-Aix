@@ -1,29 +1,18 @@
-.Aix-Banner {
+.banner {
   display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: $color-2;
-  padding: calc($space-between-section / 2);
-  overflow: hidden;
+  height: 30px;
+  --odd-background: #ffb615;
+  --even-background: #8d042d;
+  --line-height: 6rem;
+  line-height: var(--line-height);
 
-  h1 {
-    font-size: 100px;
-    font-family: $ff-strong;
-    margin: 0;
-    color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    white-space: nowrap;
-    animation: slide 10s linear infinite;
-     display: inline-block;
-  }
+  background: repeating-linear-gradient(
+    to right,
+    var(--odd-background),
+    var(--odd-background) var(--line-height),
+    var(--even-background) var(--line-height),
+    var(--even-background) calc(2 * var(--line-height))
+  );
 
-  @keyframes slide {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
+  background-size: calc(2 * var(--line-height)) 100%;
 }

@@ -1,0 +1,39 @@
+.bloc-sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: $space-between-section;
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: $ff-body;
+    font-style: normal;
+  }
+
+  .premium-sponsors,
+  .major-sponsors,
+  .official-sponsors {
+    text-align: center;
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        margin-right: 60px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+      }
+
+      img {
+        width: auto;
+    max-width: 85px;
+    height: auto;
+    max-height: 45px;
+      }
+    }
+  }
+}

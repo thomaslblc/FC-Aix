@@ -1,0 +1,24 @@
+footer {
+  .footer-links {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    nav {
+      color: #fff;
+
+      a {
+        color: #fff;
+      }
+    }
+
+    .footer-aside {
+      ul {
+        display: flex;
+      }
+
+      img {
+        height: 120px;
+      }
+    }
+  }
+}

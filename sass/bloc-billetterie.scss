@@ -2,8 +2,9 @@
   padding-bottom: $space-between-section;
   max-width: 100%;
   text-align: center;
+  background-color: #f1f1f1;
 
-  .bloc-billetterie-content {
+  .bloc-billeterie-head {
     
     h2 {
         color: $color-3;
@@ -12,5 +13,151 @@
           color: #000000;
         }
       }
+  }
+
+  .billetterie-main {
+    display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+
+      .stadium-tour,
+      .museum,
+      .next-match {
+        width: 25%;
+        text-align: center;
+        padding: 0 1em 1em;
+        background-color: #ffffff;
+
+        h3 {
+          font-size: 22px;
+          font-family: $ff-strong;
+        }
+
+        &.stadium-tour {
+          position: relative;
+
+          h3, a {
+            position: relative;
+            z-index: 2;
+          }
+/**
+          &:before {
+            position: absolute;
+            z-index: 0;
+            content: "";
+            background-image: url(../img/);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+          }
+
+          */
+        }
+
+        &.next-match {
+          width: 40%;
+          background-color: #000000;
+          color: #ffffff;
+          position: relative;
+
+          &:before {
+            position: absolute;
+            z-index: 0;
+            content: "";
+            background-image: url(../img/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+          }
+
+          h3, a {
+            position: relative;
+            z-index: 2;
+          }
+
+          .next-match-infos {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+
+            img {
+              width: auto;
+              height: 120px;
+            }
+
+            .competition-infos {
+              p {
+                margin: 0;
+              }
+
+              .next-match-stadium {
+                font-family: "Gentium";
+                font-style: italic;
+                font-weight: bold;
+                font-size: 18px;
+              }
+            }
+          }
+          .next-match-teams {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 35%;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            z-index: 2;
+
+            p {
+              font-weight: bold;
+              font-size: 35px;
+              text-transform: uppercase;
+
+              &.versus {
+                font-family: "Gentium";
+                color: $color-2;
+                text-transform: lowercase;
+                font-size: 18px;
+              }
+            }
+          }
+        }
+        &.museum {
+          background-color: #000000;
+          color: #ffffff;
+          position: relative;
+
+          &:before {
+            position: absolute;
+            z-index: 0;
+            content: "";
+            background-image: url(../img/rcde-stadium-trophees-2021-09-30-illus.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+          }
+
+          h3, a {
+            position: relative;
+            z-index: 2;
+          }
+      }
+      }
+
+      
   }
 }

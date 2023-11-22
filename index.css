@@ -222,6 +222,7 @@ header .topbar ul #right-top .SearchBar .SearchText {
   border: none;
   padding: 5px;
   font-weight: bold;
+  font-size: 16px;
   padding-left: 15px;
   border-radius: 15px 0px 0px 15px;
 }
@@ -276,6 +277,24 @@ header .navbar .navbar-content ul .logo-li {
   margin-bottom: 0;
 }
 header .navbar .navbar-content ul .logo-li a {
+  height: 120px;
+}
+
+footer .footer-links {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-links nav {
+  color: #fff;
+}
+footer .footer-links nav a {
+  color: #fff;
+}
+footer .footer-links .footer-aside ul {
+  display: flex;
+}
+footer .footer-links .footer-aside img {
   height: 120px;
 }
 
@@ -334,7 +353,6 @@ header .navbar .navbar-content ul .logo-li a {
   top: 1em;
   left: 1em;
   color: #000000;
-  font-family: "Dusha", sans-serif;
   font-size: 22px;
 }
 .bloc-actu .inner .news-container .news-slider .news-slider-info .news-slider-title {
@@ -347,13 +365,10 @@ header .navbar .navbar-content ul .logo-li a {
 }
 .bloc-actu .inner .news-container .news-slider .news-slider-info .news-slider-title h3 {
   font-size: 60px;
-  font-family: "Dusha", sans-serif;
-  letter-spacing: 5px;
   margin-bottom: 30px;
 }
 .bloc-actu .inner .news-container .news-slider .news-slider-info .news-slider-title p {
   font-size: 22px;
-  font-family: "Dusha", sans-serif;
 }
 .bloc-actu .inner .news-container .news-list {
   background-color: #ffffff;
@@ -497,7 +512,7 @@ header .navbar .navbar-content ul .logo-li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 35%;
+  max-width: 40%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1rem;
@@ -505,7 +520,7 @@ header .navbar .navbar-content ul .logo-li a {
 .bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-teams p,
 .bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.last-match .last-match-teams p,
 .bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-teams p {
-  font-family: "Dusha", sans-serif;
+  font-weight: bold;
   font-size: 24px;
   text-transform: uppercase;
 }
@@ -523,6 +538,30 @@ header .navbar .navbar-content ul .logo-li a {
   width: 40%;
   background-color: #000000;
   color: #ffffff;
+  position: relative;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.next-match:before,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match:before,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match:before {
+  position: absolute;
+  z-index: 0;
+  content: "";
+  background-image: url(../img/FDL.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.bloc-matchs .bloc-matchs-content .match-main .last-match.next-match h3, .bloc-matchs .bloc-matchs-content .match-main .last-match.next-match a,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match h3,
+.bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match a,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match h3,
+.bloc-matchs .bloc-matchs-content .match-main .next-match.next-match a {
+  position: relative;
+  z-index: 2;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match.next-match .next-match-infos,
 .bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match .next-match-infos,
@@ -530,6 +569,8 @@ header .navbar .navbar-content ul .logo-li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match.next-match .next-match-infos img,
 .bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match .next-match-infos img,
@@ -556,14 +597,16 @@ header .navbar .navbar-content ul .logo-li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 25%;
+  max-width: 30%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  z-index: 2;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match.next-match .next-match-teams p,
 .bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match .next-match-teams p,
 .bloc-matchs .bloc-matchs-content .match-main .next-match.next-match .next-match-teams p {
-  font-family: "Dusha", sans-serif;
+  font-weight: bold;
   font-size: 35px;
   text-transform: uppercase;
 }
@@ -638,13 +681,178 @@ header .navbar .navbar-content ul .logo-li a {
   padding-bottom: 70px;
   max-width: 100%;
   text-align: center;
+  background-color: #f1f1f1;
 }
-.bloc-billetterie .bloc-billetterie-content h2 {
+.bloc-billetterie .bloc-billeterie-head h2 {
   color: #8d042d;
   margin-bottom: 2rem;
 }
-.bloc-billetterie .bloc-billetterie-content h2 strong {
+.bloc-billetterie .bloc-billeterie-head h2 strong {
   color: #000000;
+}
+.bloc-billetterie .billetterie-main {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.bloc-billetterie .billetterie-main .stadium-tour,
+.bloc-billetterie .billetterie-main .museum,
+.bloc-billetterie .billetterie-main .next-match {
+  width: 25%;
+  text-align: center;
+  padding: 0 1em 1em;
+  background-color: #ffffff;
+}
+.bloc-billetterie .billetterie-main .stadium-tour h3,
+.bloc-billetterie .billetterie-main .museum h3,
+.bloc-billetterie .billetterie-main .next-match h3 {
+  font-size: 22px;
+  font-family: "Dusha", sans-serif;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.stadium-tour,
+.bloc-billetterie .billetterie-main .museum.stadium-tour,
+.bloc-billetterie .billetterie-main .next-match.stadium-tour {
+  position: relative;
+  /**
+            &:before {
+              position: absolute;
+              z-index: 0;
+              content: "";
+              background-image: url(../img/);
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+              top: 0;
+              right: 0;
+              width: 100%;
+              height: 100%;
+            }
+
+            */
+}
+.bloc-billetterie .billetterie-main .stadium-tour.stadium-tour h3, .bloc-billetterie .billetterie-main .stadium-tour.stadium-tour a,
+.bloc-billetterie .billetterie-main .museum.stadium-tour h3,
+.bloc-billetterie .billetterie-main .museum.stadium-tour a,
+.bloc-billetterie .billetterie-main .next-match.stadium-tour h3,
+.bloc-billetterie .billetterie-main .next-match.stadium-tour a {
+  position: relative;
+  z-index: 2;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.next-match,
+.bloc-billetterie .billetterie-main .museum.next-match,
+.bloc-billetterie .billetterie-main .next-match.next-match {
+  width: 40%;
+  background-color: #000000;
+  color: #ffffff;
+  position: relative;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.next-match:before,
+.bloc-billetterie .billetterie-main .museum.next-match:before,
+.bloc-billetterie .billetterie-main .next-match.next-match:before {
+  position: absolute;
+  z-index: 0;
+  content: "";
+  background-image: url(../img/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.next-match h3, .bloc-billetterie .billetterie-main .stadium-tour.next-match a,
+.bloc-billetterie .billetterie-main .museum.next-match h3,
+.bloc-billetterie .billetterie-main .museum.next-match a,
+.bloc-billetterie .billetterie-main .next-match.next-match h3,
+.bloc-billetterie .billetterie-main .next-match.next-match a {
+  position: relative;
+  z-index: 2;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.next-match .next-match-infos,
+.bloc-billetterie .billetterie-main .museum.next-match .next-match-infos,
+.bloc-billetterie .billetterie-main .next-match.next-match .next-match-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.next-match .next-match-infos img,
+.bloc-billetterie .billetterie-main .museum.next-match .next-match-infos img,
+.bloc-billetterie .billetterie-main .next-match.next-match .next-match-infos img {
+  width: auto;
+  height: 120px;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.next-match .next-match-infos .competition-infos p,
+.bloc-billetterie .billetterie-main .museum.next-match .next-match-infos .competition-infos p,
+.bloc-billetterie .billetterie-main .next-match.next-match .next-match-infos .competition-infos p {
+  margin: 0;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.next-match .next-match-infos .competition-infos .next-match-stadium,
+.bloc-billetterie .billetterie-main .museum.next-match .next-match-infos .competition-infos .next-match-stadium,
+.bloc-billetterie .billetterie-main .next-match.next-match .next-match-infos .competition-infos .next-match-stadium {
+  font-family: "Gentium";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.next-match .next-match-teams,
+.bloc-billetterie .billetterie-main .museum.next-match .next-match-teams,
+.bloc-billetterie .billetterie-main .next-match.next-match .next-match-teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.next-match .next-match-teams p,
+.bloc-billetterie .billetterie-main .museum.next-match .next-match-teams p,
+.bloc-billetterie .billetterie-main .next-match.next-match .next-match-teams p {
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.next-match .next-match-teams p.versus,
+.bloc-billetterie .billetterie-main .museum.next-match .next-match-teams p.versus,
+.bloc-billetterie .billetterie-main .next-match.next-match .next-match-teams p.versus {
+  font-family: "Gentium";
+  color: #ffb615;
+  text-transform: lowercase;
+  font-size: 18px;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.museum,
+.bloc-billetterie .billetterie-main .museum.museum,
+.bloc-billetterie .billetterie-main .next-match.museum {
+  background-color: #000000;
+  color: #ffffff;
+  position: relative;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.museum:before,
+.bloc-billetterie .billetterie-main .museum.museum:before,
+.bloc-billetterie .billetterie-main .next-match.museum:before {
+  position: absolute;
+  z-index: 0;
+  content: "";
+  background-image: url(../img/rcde-stadium-trophees-2021-09-30-illus.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.museum h3, .bloc-billetterie .billetterie-main .stadium-tour.museum a,
+.bloc-billetterie .billetterie-main .museum.museum h3,
+.bloc-billetterie .billetterie-main .museum.museum a,
+.bloc-billetterie .billetterie-main .next-match.museum h3,
+.bloc-billetterie .billetterie-main .next-match.museum a {
+  position: relative;
+  z-index: 2;
 }
 
 .bloc-boutique {
@@ -652,6 +860,10 @@ header .navbar .navbar-content ul .logo-li a {
   background-color: black;
   max-width: 100%;
   text-align: center;
+}
+.bloc-boutique .bloc-boutique-content {
+  z-index: 2;
+  position: relative;
 }
 .bloc-boutique .bloc-boutique-content h2 {
   color: #ffb615;
@@ -672,6 +884,11 @@ header .navbar .navbar-content ul .logo-li a {
   overflow: hidden;
   position: relative;
   border-radius: 300px;
+  display: inline-block;
+}
+.bloc-boutique .bloc-boutique-content .container-produits .produit:hover img {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(0.9);
 }
 .bloc-boutique .bloc-boutique-content .container-produits .produit img {
   width: auto;
@@ -685,36 +902,61 @@ header .navbar .navbar-content ul .logo-li a {
 }
 .bloc-boutique .bloc-boutique-content .accroche {
   color: #ffffff;
-  font-family: "Dusha", sans-serif;
   font-size: 45px;
 }
 
-.Aix-Banner {
+.banner {
+  display: flex;
+  height: 30px;
+  --odd-background: #ffb615;
+  --even-background: #8d042d;
+  --line-height: 6rem;
+  line-height: var(--line-height);
+  background: repeating-linear-gradient(to right, var(--odd-background), var(--odd-background) var(--line-height), var(--even-background) var(--line-height), var(--even-background) calc(2 * var(--line-height)));
+  background-size: calc(2 * var(--line-height)) 100%;
+}
+
+.bloc-sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.bloc-sponsors h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+.bloc-sponsors .premium-sponsors,
+.bloc-sponsors .major-sponsors,
+.bloc-sponsors .official-sponsors {
+  text-align: center;
+}
+.bloc-sponsors .premium-sponsors ul,
+.bloc-sponsors .major-sponsors ul,
+.bloc-sponsors .official-sponsors ul {
   display: flex;
   justify-content: center;
-  text-align: center;
-  background-color: #ffb615;
-  padding: 35px;
-  overflow: hidden;
+  align-items: center;
 }
-.Aix-Banner h1 {
-  font-size: 100px;
-  font-family: "Dusha", sans-serif;
-  margin: 0;
-  color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  white-space: nowrap;
-  animation: slide 10s linear infinite;
-  display: inline-block;
+.bloc-sponsors .premium-sponsors ul li,
+.bloc-sponsors .major-sponsors ul li,
+.bloc-sponsors .official-sponsors ul li {
+  margin-right: 60px;
 }
-@keyframes slide {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+.bloc-sponsors .premium-sponsors ul li:last-child,
+.bloc-sponsors .major-sponsors ul li:last-child,
+.bloc-sponsors .official-sponsors ul li:last-child {
+  margin-right: 0;
+}
+.bloc-sponsors .premium-sponsors ul img,
+.bloc-sponsors .major-sponsors ul img,
+.bloc-sponsors .official-sponsors ul img {
+  width: auto;
+  max-width: 85px;
+  height: auto;
+  max-height: 45px;
 }
 
 /*# sourceMappingURL=index.css.map */
