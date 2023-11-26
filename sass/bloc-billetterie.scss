@@ -40,12 +40,11 @@
             position: relative;
             z-index: 2;
           }
-/**
           &:before {
             position: absolute;
             z-index: 0;
             content: "";
-            background-image: url(../img/);
+            background-image: url(../img/runway1.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -55,7 +54,7 @@
             height: 100%;
           }
 
-          */
+          
         }
 
         &.next-match {
