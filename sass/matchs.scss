@@ -236,6 +236,14 @@
           }
         }
       }
+
+      &.equipePro, &.equipeFem, &.equipeRes, &.equipeU19 {
+        display: none;
+      }
+
+      &.filter-active-content {
+        display: flex;
+      }
     }
   }
 }

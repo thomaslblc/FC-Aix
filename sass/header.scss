@@ -124,6 +124,13 @@ header {
 
           a {
             height: 120px;
+
+            img {
+              transition: opacity 0.5s ease; // Ajout de la transition
+              &:hover {
+                opacity: 0.8;
+              }
+            }
           }
         }
       }

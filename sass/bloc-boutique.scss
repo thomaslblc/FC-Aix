@@ -32,10 +32,9 @@
 
         &:hover {
           img {
-            transition: transform 0.5s ease-in-out;
+            transition: transform 0.5s ease;
             transform: scale(0.9);
           }
-          
         }
 
         img {

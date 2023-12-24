@@ -5,158 +5,226 @@
   background-color: #f1f1f1;
 
   .bloc-billeterie-head {
-    
     h2 {
-        color: $color-3;
-        margin-bottom: 2rem;
-        strong {
-          color: #000000;
-        }
+      color: $color-3;
+      margin-bottom: 2rem;
+      strong {
+        color: #000000;
       }
+    }
   }
 
   .billetterie-main {
     display: flex;
-      align-items: stretch;
-      justify-content: space-between;
+    align-items: stretch;
+    justify-content: space-between;
 
-      .stadium-tour,
-      .museum,
-      .next-match {
-        width: 25%;
-        text-align: center;
-        padding: 0 1em 1em;
-        background-color: #ffffff;
+    .stadium-tour,
+    .museum,
+    .next-match {
+      width: 25%;
+      text-align: center;
+      padding: 1em;
+      background-color: #ffffff;
+      position: relative;
+
+      h3 {
+        font-size: 22px;
+        font-family: $ff-strong;
+      }
+
+      &.stadium-tour {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
 
         h3 {
-          font-size: 22px;
-          font-family: $ff-strong;
-        }
-
-        &.stadium-tour {
-          position: relative;
-
-          h3, a {
-            position: relative;
-            z-index: 2;
-          }
-          &:before {
-            position: absolute;
-            z-index: 0;
-            content: "";
-            background-image: url(../img/runway1.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            top: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
-          }
-
-          
-        }
-
-        &.next-match {
-          width: 40%;
-          background-color: #000000;
           color: #ffffff;
+          font-size: 40px;
+          max-width: 50%;
+          margin-top: 0;
+          line-height: 1.2em;
+        }
+
+        p {
+          color: #ffffff;
+          text-align: center;
+          margin: 0;
+        }
+
+        h3,
+        a, p {
           position: relative;
+          z-index: 2;
+        }
+        &:before {
+          position: absolute;
+          z-index: 0;
+          content: "";
+          background-image: url(../img/runway1.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+        }
 
-          &:before {
-            position: absolute;
-            z-index: 0;
-            content: "";
-            background-image: url(../img/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            top: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
+        &:after {
+          background: #000000;
+          opacity: .5;
+          position: absolute;
+          content: "";
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+        }
+      }
+
+      &.next-match {
+        width: 40%;
+        background-color: #000000;
+        color: #ffffff;
+        position: relative;
+        padding-top: 0;
+
+        &:before {
+          position: absolute;
+          z-index: 0;
+          content: "";
+          background-image: url(../img/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+        }
+
+        &:after {
+          background: #000000;
+          opacity: .3;
+          position: absolute;
+          content: "";
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+        }
+
+        h3,
+        a {
+          position: relative;
+          z-index: 2;
+        }
+
+        .next-match-infos {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: relative;
+          z-index: 2;
+
+          img {
+            width: auto;
+            height: 120px;
           }
 
-          h3, a {
-            position: relative;
-            z-index: 2;
-          }
-
-          .next-match-infos {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: relative;
-            z-index: 2;
-
-            img {
-              width: auto;
-              height: 120px;
-            }
-
-            .competition-infos {
-              p {
-                margin: 0;
-              }
-
-              .next-match-stadium {
-                font-family: "Gentium";
-                font-style: italic;
-                font-weight: bold;
-                font-size: 18px;
-              }
-            }
-          }
-          .next-match-teams {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            max-width: 35%;
-            margin-left: auto;
-            margin-right: auto;
-            position: relative;
-            z-index: 2;
-
+          .competition-infos {
             p {
-              font-weight: bold;
-              font-size: 35px;
-              text-transform: uppercase;
+              margin: 0;
+            }
 
-              &.versus {
-                font-family: "Gentium";
-                color: $color-2;
-                text-transform: lowercase;
-                font-size: 18px;
-              }
+            .next-match-stadium {
+              font-family: "Gentium";
+              font-style: italic;
+              font-weight: bold;
+              font-size: 18px;
             }
           }
         }
-        &.museum {
-          background-color: #000000;
-          color: #ffffff;
+        .next-match-teams {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          max-width: 35%;
+          margin-left: auto;
+          margin-right: auto;
           position: relative;
+          z-index: 2;
 
-          &:before {
-            position: absolute;
-            z-index: 0;
-            content: "";
-            background-image: url(../img/rcde-stadium-trophees-2021-09-30-illus.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            top: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
+          p {
+            font-weight: bold;
+            font-size: 35px;
+            text-transform: uppercase;
+
+            &.versus {
+              font-family: "Gentium";
+              color: $color-2;
+              text-transform: lowercase;
+              font-size: 18px;
+            }
           }
-
-          h3, a {
-            position: relative;
-            z-index: 2;
-          }
+        }
       }
-      }
+      &.museum {
+        background-color: #000000;
+        color: #ffffff;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
 
-      
+        &:before {
+          position: absolute;
+          z-index: 0;
+          content: "";
+          background-image: url(../img/rcde-stadium-trophees-2021-09-30-illus.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+        }
+
+        &:after {
+          background: #000000;
+          opacity: .5;
+          position: absolute;
+          content: "";
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+        }
+
+        h3 {
+          font-size: 40px;
+          max-width: 50%;
+          margin-top: 0;
+          line-height: 1.2em;
+        }
+
+        p {
+          color: #ffffff;
+          text-align: center;
+          margin: 0;
+        }
+
+        h3,
+        a, p {
+          position: relative;
+          z-index: 2;
+        }
+      }
+    }
   }
 }

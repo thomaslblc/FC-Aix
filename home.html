@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/ba326eec71.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
-
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -17,16 +18,16 @@
                 <div class="topbar-content">
                     <ul>
                         <div id="left-top">
-                            <li><a href="#">Fondation FC Aix</a></li>
-                            <li><a href="#">Boutique</a></li>
-                            <li><a href="#">Billetterie</a></li>
+                            <li><a href="/pages/fondation.html">Fondation FC Aix</a></li>
+                            <li><a href="/pages/shop.html">Boutique</a></li>
+                            <li><a href="/pages/tickets.html">Billetterie</a></li>
                         </div>
                         <div id="right-top">
                             <form class="SearchBar">
                                 <input class="SearchText" type="search" placeholder="Que recherchez-vous ?">
                                 <button class="SearchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
                             </form>
-                            <li><a href="#">Se connecter<i class="fa-regular fa-user"></i></a></li>
+                            <li><a href="/pages/login.html">Se connecter<i class="fa-regular fa-user"></i></a></li>
                         </div>
                     </ul>
                 </div>
@@ -36,20 +37,20 @@
             <div class="inner">
                 <div class="navbar-content">
                     <ul>
-                        <li><a href="#">Équipe Pro</a></li>
-                        <li><a href="#">Féminine</a></li>
-                        <li><a href="#">Formation</a></li>
-                        <li class="logo-li"><a href="#"><img src="./img/aixlogo.png" alt="Accueil"></a></li>
-                        <li><a href="#">Le Club</a></li>
-                        <li><a href="#">Les Fans</a></li>
-                        <li><a href="#">Le Stade</a></li>
+                        <li><a href="/pages/equipe_pro.html">Équipe Pro</a></li>
+                        <li><a href="/pages/feminine.html">Féminine</a></li>
+                        <li><a href="/pages/formation.html">Formation</a></li>
+                        <li class="logo-li"><a href="home.html"><img src="./img/v1.2.png" alt="Accueil"></a></li>
+                        <li><a href="/pages/club.html">Le Club</a></li>
+                        <li><a href="/pages/fans.html">Les Fans</a></li>
+                        <li><a href="/pages/stade.html">Le Stade</a></li>
                     </ul>
                 </div>
             </div>
         </div>
+        <div class="banner"></div>
     </header>
     <main>
-        <div class="banner"></div>
         <section class="bloc-actu">
             <div class="inner">
                 <h2>Dernières <strong>Actualités</strong></h2>
@@ -251,13 +252,14 @@
                     <div class="match-head">
                         <h2>Les<strong>Matchs</strong></h2>
                         <ul>
-                            <li class="matchs-filter filter-active">Équipe Pro</li>
-                            <li class="matchs-filter">Féminines</li>
-                            <li class="matchs-filter">Masculin Réserve</li>
-                            <li class="matchs-filter">Masculin U19</li>
+                            <li class="matchs-filter filterPro filter-active">Équipe Pro</li>
+                            <li class="matchs-filter filterFem">Féminines</li>
+                            <li class="matchs-filter filterRes">Masculin Réserve</li>
+                            <li class="matchs-filter filterU19">Masculin U19</li>
                         </ul>
                     </div>
-                    <div class="match-main">
+                    <!-- -----------------------------MATCHS PRO----------------------------- -->
+                    <div class="match-main equipePro filter-active-content">
                         <div class="last-match">
                             <h3>Dernier Résultat</h3>
                             <div class="competition-infos">
@@ -266,7 +268,7 @@
                                 <p class="last-match-stadium">Stade du Pays d'Aix</p>
                             </div>
                             <div class="last-match-result">
-                                <img src="./img/aixlogo.png" alt="Logo Aix">
+                                <img src="./img/v1.2.png" alt="Logo Aix">
                                 <p class="score">2</p>
                                 <p class="score">2</p>
                                 <img src="./img/logo_om.png" alt="Logo OM">
@@ -287,7 +289,7 @@
                                     <p class="next-match-date">Dimanche 19 Mars - 20h45</p>
                                     <p class="next-match-stadium">Groupama Stadium</p>
                                 </div>
-                                <img src="./img/aixlogo.png" alt="Logo Aix">
+                                <img src="./img/v1.2.png" alt="Logo Aix">
                             </div>
                             <div class="next-match-teams">
                                 <p>Ol</p>
@@ -298,6 +300,223 @@
                         </div>
                         <div class="leaderboard-container">
                             <h3>Classement L1</h3>
+                            <div class="leaderboard">
+                                <div class="leaderboard-row">
+                                    <span class="position">2</span>
+                                    <span class="team-name">AS Monaco</span>
+                                    <span class="points">35</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="position">3</span>
+                                    <span class="team-name">Stade Rennais</span>
+                                    <span class="points">32</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="position">4</span>
+                                    <span class="team-name">Aix-en-Provence</span>
+                                    <span class="points">31</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="position">5</span>
+                                    <span class="team-name">Marseille</span>
+                                    <span class="points">29</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="position">6</span>
+                                    <span class="team-name">RC Lens</span>
+                                    <span class="points">28</span>
+                                </div>
+                            </div>
+                            <a href="#" class="button c1">Classement complet</a>
+                        </div>
+                    </div>
+
+                    <!-- -----------------------------MATCHS FEMININES----------------------------- -->
+                    <div class="match-main equipeFem">
+                        <div class="last-match">
+                            <h3>Dernier Résultat</h3>
+                            <div class="competition-infos">
+                                <p class="competition-day">D1 Arkema - J30</p>
+                                <p class="last-match-date">Vendredi 10 Mars</p>
+                                <p class="last-match-stadium">Stade du Pays d'Aix</p>
+                            </div>
+                            <div class="last-match-result">
+                                <img src="./img/v1.2.png" alt="Logo Aix">
+                                <p class="score">1</p>
+                                <p class="score">4</p>
+                                <img src="./img/logo_om.png" alt="Logo OM">
+                            </div>
+                            <div class="last-match-teams">
+                                <p>Aix</p>
+                                <p class="versus">vs</p>
+                                <p>Om</p>
+                            </div>
+                            <a href="#" class="button c1">Feuille de match</a>
+                        </div>
+                        <div class="next-match">
+                            <h3>Prochaine Rencontre</h3>
+                            <div class="next-match-infos">
+                                <img src="./img/logo_ol.png" alt="Logo OL">
+                                <div class="competition-infos">
+                                    <p class="competition-day">D1 Arkema - J31</p>
+                                    <p class="next-match-date">Vendredi 17 Mars - 20h45</p>
+                                    <p class="next-match-stadium">Groupama Stadium</p>
+                                </div>
+                                <img src="./img/v1.2.png" alt="Logo Aix">
+                            </div>
+                            <div class="next-match-teams">
+                                <p>Ol</p>
+                                <p class="versus">vs</p>
+                                <p>Aix</p>
+                            </div>
+                            <a href="#" class="button c2">Feuille de match</a>
+                        </div>
+                        <div class="leaderboard-container">
+                            <h3>Classement D1</h3>
+                            <div class="leaderboard">
+                                <div class="leaderboard-row">
+                                    <span class="position">2</span>
+                                    <span class="team-name">AS Monaco</span>
+                                    <span class="points">35</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="position">3</span>
+                                    <span class="team-name">Stade Rennais</span>
+                                    <span class="points">32</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="position">4</span>
+                                    <span class="team-name">Aix-en-Provence</span>
+                                    <span class="points">31</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="position">5</span>
+                                    <span class="team-name">Marseille</span>
+                                    <span class="points">29</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="position">6</span>
+                                    <span class="team-name">RC Lens</span>
+                                    <span class="points">28</span>
+                                </div>
+                            </div>
+                            <a href="#" class="button c1">Classement complet</a>
+                        </div>
+                    </div>
+                    <!-- -----------------------------MATCHS RESERVE----------------------------- -->
+                    <div class="match-main equipeRes">
+                        <div class="last-match">
+                            <h3>Dernier Résultat</h3>
+                            <div class="competition-infos">
+                                <p class="competition-day">National 3 Gr. C - J24</p>
+                                <p class="last-match-date">Dimanche 12 Mars</p>
+                                <p class="last-match-stadium">Stade George Carcassonne</p>
+                            </div>
+                            <div class="last-match-result">
+                                <img src="./img/v1.2.png" alt="Logo Aix">
+                                <p class="score">2</p>
+                                <p class="score">0</p>
+                                <img src="./img/logo_om.png" alt="Logo OM">
+                            </div>
+                            <div class="last-match-teams">
+                                <p>Aix</p>
+                                <p class="versus">vs</p>
+                                <p>Om</p>
+                            </div>
+                            <a href="#" class="button c1">Feuille de match</a>
+                        </div>
+                        <div class="next-match">
+                            <h3>Prochaine Rencontre</h3>
+                            <div class="next-match-infos">
+                                <img src="./img/logo_ol.png" alt="Logo OL">
+                                <div class="competition-infos">
+                                    <p class="competition-day">National 3 Gr. C - J25</p>
+                                    <p class="next-match-date">Dimanche 19 Mars - 17h00</p>
+                                    <p class="next-match-stadium">Stade Sonny Anderson</p>
+                                </div>
+                                <img src="./img/v1.2.png" alt="Logo Aix">
+                            </div>
+                            <div class="next-match-teams">
+                                <p>Ol</p>
+                                <p class="versus">vs</p>
+                                <p>Aix</p>
+                            </div>
+                            <a href="#" class="button c2">Feuille de match</a>
+                        </div>
+                        <div class="leaderboard-container">
+                            <h3>Classement N3 Gr. C</h3>
+                            <div class="leaderboard">
+                                <div class="leaderboard-row">
+                                    <span class="position">2</span>
+                                    <span class="team-name">AS Monaco</span>
+                                    <span class="points">35</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="position">3</span>
+                                    <span class="team-name">Stade Rennais</span>
+                                    <span class="points">32</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="position">4</span>
+                                    <span class="team-name">Aix-en-Provence</span>
+                                    <span class="points">31</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="position">5</span>
+                                    <span class="team-name">Marseille</span>
+                                    <span class="points">29</span>
+                                </div>
+                                <div class="leaderboard-row">
+                                    <span class="position">6</span>
+                                    <span class="team-name">RC Lens</span>
+                                    <span class="points">28</span>
+                                </div>
+                            </div>
+                            <a href="#" class="button c1">Classement complet</a>
+                        </div>
+                    </div>
+                    <!-- -----------------------------MATCHS U19----------------------------- -->
+                    <div class="match-main equipeU19">
+                        <div class="last-match">
+                            <h3>Dernier Résultat</h3>
+                            <div class="competition-infos">
+                                <p class="competition-day">Division Nationale U19 - J18</p>
+                                <p class="last-match-date">Dimanche 12 Mars</p>
+                                <p class="last-match-stadium">Stade George Carcassonne</p>
+                            </div>
+                            <div class="last-match-result">
+                                <img src="./img/v1.2.png" alt="Logo Aix">
+                                <p class="score">1</p>
+                                <p class="score">1</p>
+                                <img src="./img/logo_om.png" alt="Logo OM">
+                            </div>
+                            <div class="last-match-teams">
+                                <p>Aix</p>
+                                <p class="versus">vs</p>
+                                <p>Om</p>
+                            </div>
+                            <a href="#" class="button c1">Feuille de match</a>
+                        </div>
+                        <div class="next-match">
+                            <h3>Prochaine Rencontre</h3>
+                            <div class="next-match-infos">
+                                <img src="./img/logo_ol.png" alt="Logo OL">
+                                <div class="competition-infos">
+                                    <p class="competition-day">Division Nationale U19 - J19</p>
+                                    <p class="next-match-date">Dimanche 19 Mars - 15h45</p>
+                                    <p class="next-match-stadium">Stade Grégory Coupet</p>
+                                </div>
+                                <img src="./img/v1.2.png" alt="Logo Aix">
+                            </div>
+                            <div class="next-match-teams">
+                                <p>Ol</p>
+                                <p class="versus">vs</p>
+                                <p>Aix</p>
+                            </div>
+                            <a href="#" class="button c2">Feuille de match</a>
+                        </div>
+                        <div class="leaderboard-container">
+                            <h3>Classement U19</h3>
                             <div class="leaderboard">
                                 <div class="leaderboard-row">
                                     <span class="position">2</span>
@@ -353,12 +572,18 @@
                 <div class="billetterie-main">
                     <div class="stadium-tour">
                         <h3>Stadium Tour</h3>
+                        <div class="stadium-location">
+                            <p>Autoroute A8</p>
+                            <p>Sortie 28 - Vallée d'Aix</p>
+                            <p>13290 Aix-en-Provence</p>
+                        </div>
+
                         <a href="#" class="button c2">Explorer</a>
                     </div>
                     <div class="next-match">
                         <h3>Prochaine Rencontre</h3>
                         <div class="next-match-infos">
-                            <img src="./img/aixlogo.png" alt="Logo Aix">
+                            <img src="./img/v1.2.png" alt="Logo Aix">
                             <div class="competition-infos">
                                 <p class="competition-day">Ligue 1 Uber Eats - J26</p>
                                 <p class="next-match-date">Dimanche 26 Mars - 15h00</p>
@@ -375,6 +600,10 @@
                     </div>
                     <div class="museum">
                         <h3>Visite du Musée</h3>
+                        <div class="museum-location">
+                            <p>264 Avenue Paul Jullien</p>
+                            <p>13100 Le Tholonet</p>
+                        </div>
                         <a href="#" class="button c2">Visiter</a>
                     </div>
                 </div>
@@ -390,30 +619,42 @@
                 <div class="inner">
                     <ul>
                         <li><a href="https://eu.puma.com/"><img src="./img/puma.png" alt="logo sponsor puma"></a></li>
-                        <li><a href="https://www.virtuedrinks.com/"><img src="./img/virtue.png" alt="logo sponsor virtue"></a></li>
-                        <li><a href="https://www.just-eat.fr/"><img src="./img/justeat.png" alt="logo sponsor just eat"></a></li>
+                        <li><a href="https://www.virtuedrinks.com/"><img src="./img/virtue.png"
+                                    alt="logo sponsor virtue"></a></li>
+                        <li><a href="https://www.just-eat.fr/"><img src="./img/justeat.png"
+                                    alt="logo sponsor just eat"></a></li>
                     </ul>
                 </div>
             </div>
             <div class="major-sponsors">
                 <div class="inner">
                     <ul>
-                        <li><a href="https://www.banquepopulaire.fr/mediterranee/"><img src="./img/bpm.png" alt="logo sponsor banque populaire"></a></li>
-                        <li><a href="https://ortec-group.com/"><img src="./img/ortec.png" alt="logo sponsor ortec"></a></li>
-                        <li><a href="https://www.turkishairlines.com/"><img src="./img/turkish-airlines-logos-png-1.png" alt="logo sponsor turkish airlines"></a></li>
-                        <li><a href="https://www.adecco.fr/"><img src="./img/adecco.png" alt="logo sponsor adecco"></a></li>
-                        <li><a href="https://iqoniq.com/"><img src="./img/iqoniq.png" alt="logo sponsor iqoniq"></a></li>
+                        <li><a href="https://www.banquepopulaire.fr/mediterranee/"><img src="./img/bpm.png"
+                                    alt="logo sponsor banque populaire"></a></li>
+                        <li><a href="https://ortec-group.com/"><img src="./img/ortec.png" alt="logo sponsor ortec"></a>
+                        </li>
+                        <li><a href="https://www.turkishairlines.com/"><img src="./img/turkish-airlines-logos-png-1.png"
+                                    alt="logo sponsor turkish airlines"></a></li>
+                        <li><a href="https://www.adecco.fr/"><img src="./img/adecco.png" alt="logo sponsor adecco"></a>
+                        </li>
+                        <li><a href="https://iqoniq.com/"><img src="./img/iqoniq.png" alt="logo sponsor iqoniq"></a>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="official-sponsors">
                 <div class="inner">
                     <ul>
-                        <li><a href="https://www.univ-amu.fr/"><img src="./img/LOGO_AMU.png" alt="logo sponsor amu"></a></li>
-                        <li><a href="https://sorare.com/fr/"><img src="./img/sorare-full-black.png" alt="logo sponsor sorare"></a></li>
-                        <li><a href="https://www.ea.com/fr-fr/games/ea-sports-fc/fc-24"><img src="./img/ea-sports-fc-logo-white.png" alt="logo sponsor eafc"></a></li>
-                        <li><a href="https://ampmetropole.fr/"><img src="./img/logo_MAMP.png" alt="logo sponsor metropole amp"></a></li>
-                        <li><a href="https://www.soprema.fr/fr/"><img src="./img/soprema.png" alt="logo sponsor soprema"></a></li>
+                        <li><a href="https://www.univ-amu.fr/"><img src="./img/LOGO_AMU.png" alt="logo sponsor amu"></a>
+                        </li>
+                        <li><a href="https://sorare.com/fr/"><img src="./img/sorare-full-black.png"
+                                    alt="logo sponsor sorare"></a></li>
+                        <li><a href="https://www.ea.com/fr-fr/games/ea-sports-fc/fc-24"><img
+                                    src="./img/ea-sports-fc-logo-white.png" alt="logo sponsor eafc"></a></li>
+                        <li><a href="https://ampmetropole.fr/"><img src="./img/logo_MAMP.png"
+                                    alt="logo sponsor metropole amp"></a></li>
+                        <li><a href="https://www.soprema.fr/fr/"><img src="./img/soprema.png"
+                                    alt="logo sponsor soprema"></a></li>
                     </ul>
                 </div>
             </div>
@@ -426,19 +667,18 @@
                     <nav>
                         <h3>FC Aix-en-Provence</h3>
                         <ul>
-                            <li><a href="#">Équipe Pro</a></li>
-                            <li><a href="#">Féminine</a></li>
-                            <li><a href="#">Formation</a></li>
-                            <li><a href="#">Club</a></li>
+                            <li><a href="/pages/equipe_pro.html">Équipe Pro</a></li>
+                            <li><a href="/pages/feminine.html">Féminine</a></li>
+                            <li><a href="/pages/formation.html">Formation</a></li>
+                            <li><a href="/pages/club.html">Club</a></li>
                         </ul>
                     </nav>
                     <nav>
                         <h3>Services</h3>
                         <ul>
-                            <li><a href="#">Mon compte</a></li>
-                            <li><a href="#">Billetterie</a></li>
-                            <li><a href="#">Boutique</a></li>
-                            <li><a href="#">Stadium Tour</a></li>
+                            <li><a href="/pages/login.html">Mon compte</a></li>
+                            <li><a href="/pages/tickets.html">Billetterie</a></li>
+                            <li><a href="/pages/shop.html">Boutique</a></li>
                         </ul>
                     </nav>
                     <nav>
@@ -469,13 +709,19 @@
                             <h3>Rejoignez-nous</h3>
                             <ul class="social-links">
                                 <li><a href="https://x.com/aixfc"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="https://instagram.com/aixfc"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="https://tiktok.com/aixfcofficiel"><i class="fa-brands fa-tiktok"></i></a></li>
-                                <li><a href="https://facebook.com/aix"><i class="fa-brands fa-square-facebook"></i></a></li>
-                                <li><a href="https://youtube.com/aixfcofficiel"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="https://instagram.com/aixfc"><i class="fa-brands fa-instagram"></i></a>
+                                </li>
+                                <li><a href="https://tiktok.com/aixfcofficiel"><i class="fa-brands fa-tiktok"></i></a>
+                                </li>
+                                <li><a href="https://facebook.com/aix"><i class="fa-brands fa-square-facebook"></i></a>
+                                </li>
+                                <li><a href="https://youtube.com/aixfcofficiel"><i class="fa-brands fa-youtube"></i></a>
+                                </li>
                                 <li><a href="https://twitch.tv/aixfc"><i class="fa-brands fa-twitch"></i></a></li>
-                                <li><a href="https://snapchat.com/aixenprovencefc"><i class="fa-brands fa-snapchat"></i></a></li>
-                                <li><a href="https://linkedin.com/aixenprovencefc"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="https://snapchat.com/aixenprovencefc"><i
+                                            class="fa-brands fa-snapchat"></i></a></li>
+                                <li><a href="https://linkedin.com/aixenprovencefc"><i
+                                            class="fa-brands fa-linkedin-in"></i></a></li>
                             </ul>
                         </nav>
                         <div class="footer-logos">

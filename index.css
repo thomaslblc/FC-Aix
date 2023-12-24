@@ -96,6 +96,20 @@
   font-style: italic;
   font-display: swap;
 }
+@font-face {
+  font-family: "Ashemore";
+  src: url(".//fonts/AshemoreW01-NormBold.woff2") format("woff2"), url(".//fonts/AshemoreW01-NormBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ashemore";
+  src: url(".//fonts/AshemoreW01-NormBold.woff2") format("woff2"), url(".//fonts/AshemoreW01-NormBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 * {
   font-family: "Lato", sans-serif;
   box-sizing: border-box;
@@ -152,6 +166,7 @@ h2 strong {
 }
 .button.c1:hover {
   background-color: #000000;
+  transition: 0.3s ease;
   color: #ffffff;
 }
 .button.c2 {
@@ -160,6 +175,7 @@ h2 strong {
 }
 .button.c2:hover {
   background-color: #ffb615;
+  transition: 0.3s ease;
   color: #000000;
 }
 .button.c3 {
@@ -168,6 +184,7 @@ h2 strong {
 }
 .button.c3:hover {
   background-color: #8d042d;
+  transition: 0.3s ease;
   color: #ffffff;
 }
 
@@ -279,6 +296,12 @@ header .navbar .navbar-content ul .logo-li {
 }
 header .navbar .navbar-content ul .logo-li a {
   height: 120px;
+}
+header .navbar .navbar-content ul .logo-li a img {
+  transition: opacity 0.5s ease;
+}
+header .navbar .navbar-content ul .logo-li a img:hover {
+  opacity: 0.8;
 }
 
 footer .footer-links {
@@ -704,6 +727,12 @@ footer .footer-links .footer-container .footer-aside .footer-logos img {
   width: 15%;
   text-align: left;
 }
+.bloc-matchs .bloc-matchs-content .match-main.equipePro, .bloc-matchs .bloc-matchs-content .match-main.equipeFem, .bloc-matchs .bloc-matchs-content .match-main.equipeRes, .bloc-matchs .bloc-matchs-content .match-main.equipeU19 {
+  display: none;
+}
+.bloc-matchs .bloc-matchs-content .match-main.filter-active-content {
+  display: flex;
+}
 
 .bloc-billetterie {
   padding-bottom: 70px;
@@ -728,8 +757,9 @@ footer .footer-links .footer-container .footer-aside .footer-logos img {
 .bloc-billetterie .billetterie-main .next-match {
   width: 25%;
   text-align: center;
-  padding: 0 1em 1em;
+  padding: 1em;
   background-color: #ffffff;
+  position: relative;
 }
 .bloc-billetterie .billetterie-main .stadium-tour h3,
 .bloc-billetterie .billetterie-main .museum h3,
@@ -741,12 +771,35 @@ footer .footer-links .footer-container .footer-aside .footer-logos img {
 .bloc-billetterie .billetterie-main .museum.stadium-tour,
 .bloc-billetterie .billetterie-main .next-match.stadium-tour {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
-.bloc-billetterie .billetterie-main .stadium-tour.stadium-tour h3, .bloc-billetterie .billetterie-main .stadium-tour.stadium-tour a,
+.bloc-billetterie .billetterie-main .stadium-tour.stadium-tour h3,
+.bloc-billetterie .billetterie-main .museum.stadium-tour h3,
+.bloc-billetterie .billetterie-main .next-match.stadium-tour h3 {
+  color: #ffffff;
+  font-size: 40px;
+  max-width: 50%;
+  margin-top: 0;
+  line-height: 1.2em;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.stadium-tour p,
+.bloc-billetterie .billetterie-main .museum.stadium-tour p,
+.bloc-billetterie .billetterie-main .next-match.stadium-tour p {
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.stadium-tour h3,
+.bloc-billetterie .billetterie-main .stadium-tour.stadium-tour a, .bloc-billetterie .billetterie-main .stadium-tour.stadium-tour p,
 .bloc-billetterie .billetterie-main .museum.stadium-tour h3,
 .bloc-billetterie .billetterie-main .museum.stadium-tour a,
+.bloc-billetterie .billetterie-main .museum.stadium-tour p,
 .bloc-billetterie .billetterie-main .next-match.stadium-tour h3,
-.bloc-billetterie .billetterie-main .next-match.stadium-tour a {
+.bloc-billetterie .billetterie-main .next-match.stadium-tour a,
+.bloc-billetterie .billetterie-main .next-match.stadium-tour p {
   position: relative;
   z-index: 2;
 }
@@ -765,6 +818,18 @@ footer .footer-links .footer-container .footer-aside .footer-logos img {
   width: 100%;
   height: 100%;
 }
+.bloc-billetterie .billetterie-main .stadium-tour.stadium-tour:after,
+.bloc-billetterie .billetterie-main .museum.stadium-tour:after,
+.bloc-billetterie .billetterie-main .next-match.stadium-tour:after {
+  background: #000000;
+  opacity: 0.5;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
 .bloc-billetterie .billetterie-main .stadium-tour.next-match,
 .bloc-billetterie .billetterie-main .museum.next-match,
 .bloc-billetterie .billetterie-main .next-match.next-match {
@@ -772,6 +837,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img {
   background-color: #000000;
   color: #ffffff;
   position: relative;
+  padding-top: 0;
 }
 .bloc-billetterie .billetterie-main .stadium-tour.next-match:before,
 .bloc-billetterie .billetterie-main .museum.next-match:before,
@@ -788,7 +854,20 @@ footer .footer-links .footer-container .footer-aside .footer-logos img {
   width: 100%;
   height: 100%;
 }
-.bloc-billetterie .billetterie-main .stadium-tour.next-match h3, .bloc-billetterie .billetterie-main .stadium-tour.next-match a,
+.bloc-billetterie .billetterie-main .stadium-tour.next-match:after,
+.bloc-billetterie .billetterie-main .museum.next-match:after,
+.bloc-billetterie .billetterie-main .next-match.next-match:after {
+  background: #000000;
+  opacity: 0.3;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.next-match h3,
+.bloc-billetterie .billetterie-main .stadium-tour.next-match a,
 .bloc-billetterie .billetterie-main .museum.next-match h3,
 .bloc-billetterie .billetterie-main .museum.next-match a,
 .bloc-billetterie .billetterie-main .next-match.next-match h3,
@@ -857,6 +936,10 @@ footer .footer-links .footer-container .footer-aside .footer-logos img {
   background-color: #000000;
   color: #ffffff;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 .bloc-billetterie .billetterie-main .stadium-tour.museum:before,
 .bloc-billetterie .billetterie-main .museum.museum:before,
@@ -873,11 +956,41 @@ footer .footer-links .footer-container .footer-aside .footer-logos img {
   width: 100%;
   height: 100%;
 }
-.bloc-billetterie .billetterie-main .stadium-tour.museum h3, .bloc-billetterie .billetterie-main .stadium-tour.museum a,
+.bloc-billetterie .billetterie-main .stadium-tour.museum:after,
+.bloc-billetterie .billetterie-main .museum.museum:after,
+.bloc-billetterie .billetterie-main .next-match.museum:after {
+  background: #000000;
+  opacity: 0.5;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.museum h3,
+.bloc-billetterie .billetterie-main .museum.museum h3,
+.bloc-billetterie .billetterie-main .next-match.museum h3 {
+  font-size: 40px;
+  max-width: 50%;
+  margin-top: 0;
+  line-height: 1.2em;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.museum p,
+.bloc-billetterie .billetterie-main .museum.museum p,
+.bloc-billetterie .billetterie-main .next-match.museum p {
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+.bloc-billetterie .billetterie-main .stadium-tour.museum h3,
+.bloc-billetterie .billetterie-main .stadium-tour.museum a, .bloc-billetterie .billetterie-main .stadium-tour.museum p,
 .bloc-billetterie .billetterie-main .museum.museum h3,
 .bloc-billetterie .billetterie-main .museum.museum a,
+.bloc-billetterie .billetterie-main .museum.museum p,
 .bloc-billetterie .billetterie-main .next-match.museum h3,
-.bloc-billetterie .billetterie-main .next-match.museum a {
+.bloc-billetterie .billetterie-main .next-match.museum a,
+.bloc-billetterie .billetterie-main .next-match.museum p {
   position: relative;
   z-index: 2;
 }
@@ -914,7 +1027,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img {
   display: inline-block;
 }
 .bloc-boutique .bloc-boutique-content .container-produits .produit:hover img {
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease;
   transform: scale(0.9);
 }
 .bloc-boutique .bloc-boutique-content .container-produits .produit img {
@@ -937,7 +1050,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img {
   height: 15px;
   --odd-background: #ffb615;
   --even-background: #8d042d;
-  --line-height: 6rem;
+  --line-height: 99px;
   line-height: var(--line-height);
   background: repeating-linear-gradient(to right, var(--odd-background), var(--odd-background) var(--line-height), var(--even-background) var(--line-height), var(--even-background) calc(2 * var(--line-height)));
   background-size: calc(2 * var(--line-height)) 100%;
@@ -973,11 +1086,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img {
 .bloc-sponsors .major-sponsors ul li,
 .bloc-sponsors .official-sponsors ul li {
   margin-right: 80px;
-}
-.bloc-sponsors .premium-sponsors ul li:last-child,
-.bloc-sponsors .major-sponsors ul li:last-child,
-.bloc-sponsors .official-sponsors ul li:last-child {
-  margin-right: 0;
+  margin-left: 50px;
 }
 .bloc-sponsors .premium-sponsors ul img,
 .bloc-sponsors .major-sponsors ul img,
