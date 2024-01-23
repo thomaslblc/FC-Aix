@@ -1,0 +1,20 @@
+.paragraphe,
+.paragraphe_double {
+  padding: $space-between-section 0;
+
+  h2 {
+    padding: 0;
+    font-size: 28px;
+    padding-bottom: $large-value;
+    font-family: $ff-body;
+    font-style: normal;
+  }
+}
+
+.paragraphe_double {
+  display: flex;
+  justify-content: space-between;
+  .texte {
+    width: 48%;
+  }
+}
