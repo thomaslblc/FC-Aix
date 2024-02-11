@@ -113,7 +113,7 @@
 * {
   font-family: "Lato", sans-serif;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body {
@@ -186,6 +186,39 @@ h2 strong {
   background-color: #8d042d;
   transition: 0.3s ease;
   color: #ffffff;
+}
+
+.team-filter-container {
+  text-align: center;
+}
+.team-filter-container ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2rem auto;
+}
+.team-filter-container ul .li {
+  background-color: #ffffff;
+  border: 2px solid #8d042d;
+  padding: 2px 5px;
+  color: #8d042d;
+}
+.team-filter-container ul .li:hover {
+  background-color: #8d042d;
+  color: #ffffff;
+  cursor: pointer;
+}
+.team-filter-container ul .li.filter-active {
+  background-color: #8d042d;
+  color: #ffffff;
+}
+
+.team-layout div, .staff-layout div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .inner {
@@ -1054,7 +1087,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   height: 15px;
   --odd-background: #ffb615;
   --even-background: #8d042d;
-  --line-height: 99px;
+  --line-height: 95px;
   line-height: var(--line-height);
   background: repeating-linear-gradient(to right, var(--odd-background), var(--odd-background) var(--line-height), var(--even-background) var(--line-height), var(--even-background) calc(2 * var(--line-height)));
   background-size: calc(2 * var(--line-height)) 100%;

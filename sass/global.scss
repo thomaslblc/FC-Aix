@@ -82,3 +82,45 @@ h2 {
     }
   }
 }
+
+// JOUEURS ET STAFF //
+
+.team-filter-container {
+  text-align: center;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2rem auto;
+
+    .li {
+      background-color: #ffffff;
+      border: 2px solid $color-3;
+      padding: 2px 5px;
+      color: $color-3;
+
+      &:hover {
+        background-color: $color-3;
+        color: #ffffff;
+        cursor: pointer;
+      }
+
+      &.filter-active {
+        background-color: $color-3;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.team-layout, .staff-layout {
+
+  div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
