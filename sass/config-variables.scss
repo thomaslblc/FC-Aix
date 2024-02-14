@@ -2,7 +2,6 @@ $ff-title: 'Gentium', sans-serif !default;
 $ff-body: 'Lato', sans-serif !default;
 $ff-strong: 'Dusha', sans-serif !default;
 
-
 $fw-light: 200 !default;
 $fw-normal: 300 !default;
 $fw-bold: 600 !default;
@@ -31,6 +30,8 @@ $large-value: 3rem !default;
 
 $radius: 25px !default;
 $space-between-section: 70px !default;
+
+$transition: all, 150ms, ease-in-out !default;
 
 $breakpoints: (
 

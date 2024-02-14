@@ -100,10 +100,10 @@
         ul {
           .news-item {
             border-bottom: solid 2px rgba(#000000, 0.2);
+            @include transition();
 
             &:hover {
               background-color: rgba(#000000, 0.1);
-              transition: all ease-in-out;
             }
 
             &:nth-child(odd) {

@@ -15,11 +15,11 @@
       background: $color-3;
       color: #fff;
       display: block;
+      @include transition();
 
       &:hover {
         background: $color-2;
         color: $body-color;
-        transition: 300ms ease;
       }
     }
   }

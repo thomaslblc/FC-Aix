@@ -1,0 +1,17 @@
+@mixin transition($all:all, $time:150ms, $effect:ease-in-out) {
+    transition: $all $time $effect;
+}
+
+@mixin ombre(){
+    box-shadow: 
+    rgba(0, 0, 0, 0.05) 0px 2px 2px,
+    rgba(0, 0, 0, 0.05) 0px 4px 4px,
+    rgba(0, 0, 0, 0.05) 0px 8px 8px,
+    rgba(0, 0, 0, 0.05) 0px 16px 16px,
+    rgba(0, 0, 0, 0.05) 0px 32px 32px,
+    rgba(0, 0, 0, 0.05) 0px 64px 64px;
+}
+
+@mixin cover(){
+    background-position: center center;
+}

@@ -36,7 +36,7 @@
         opacity: .7;
 
         &:hover {
-          transition: transform 0.2s ease-in-out;
+          transition: transform 150ms ease-in-out;
           transform: scale(1.1);
           opacity: 1;
         }

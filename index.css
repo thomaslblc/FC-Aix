@@ -159,6 +159,7 @@ h2 strong {
   padding: 5px 15px;
   background-color: transparent;
   border-radius: 25px;
+  transition: all 150ms ease-in-out;
 }
 .button.c1 {
   color: #131313;
@@ -166,7 +167,6 @@ h2 strong {
 }
 .button.c1:hover {
   background-color: #131313;
-  transition: 0.3s ease;
   color: #ffffff;
 }
 .button.c2 {
@@ -175,7 +175,6 @@ h2 strong {
 }
 .button.c2:hover {
   background-color: #ffb615;
-  transition: 0.3s ease;
   color: #000000;
 }
 .button.c3 {
@@ -184,7 +183,6 @@ h2 strong {
 }
 .button.c3:hover {
   background-color: #8d042d;
-  transition: 0.3s ease;
   color: #ffffff;
 }
 
@@ -331,7 +329,7 @@ header .navbar .navbar-content ul .logo-li a {
   height: 120px;
 }
 header .navbar .navbar-content ul .logo-li a img {
-  transition: opacity 0.5s ease;
+  transition: opacity 150ms ease-in-out;
 }
 header .navbar .navbar-content ul .logo-li a img:hover {
   opacity: 0.8;
@@ -472,10 +470,10 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
 }
 .bloc-actu .inner .news-container .news-list ul .news-item {
   border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+  transition: all 150ms ease-in-out;
 }
 .bloc-actu .inner .news-container .news-list ul .news-item:hover {
   background-color: rgba(0, 0, 0, 0.1);
-  transition: all ease-in-out;
 }
 .bloc-actu .inner .news-container .news-list ul .news-item:nth-child(odd) .square {
   background-color: #8d042d;
@@ -1064,7 +1062,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   display: inline-block;
 }
 .bloc-boutique .bloc-boutique-content .container-produits .produit:hover img {
-  transition: transform 0.5s ease;
+  transition: transform 150ms ease-in-out;
   transform: scale(0.9);
 }
 .bloc-boutique .bloc-boutique-content .container-produits .produit img {
@@ -1137,7 +1135,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
 .bloc-sponsors .premium-sponsors ul img:hover,
 .bloc-sponsors .major-sponsors ul img:hover,
 .bloc-sponsors .official-sponsors ul img:hover {
-  transition: transform 0.2s ease-in-out;
+  transition: transform 150ms ease-in-out;
   transform: scale(1.1);
   opacity: 1;
 }
@@ -1159,11 +1157,11 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   background: #8d042d;
   color: #fff;
   display: block;
+  transition: all 150ms ease-in-out;
 }
 .bloc-pages-enfants .pages-enfants a:hover {
   background: #ffb615;
   color: #131313;
-  transition: 300ms ease;
 }
 
 .cover {

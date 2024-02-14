@@ -126,7 +126,7 @@ header {
             height: 120px;
 
             img {
-              transition: opacity 0.5s ease; // Ajout de la transition
+              transition: opacity 150ms ease-in-out;
               &:hover {
                 opacity: 0.8;
               }
