@@ -1,3 +1,4 @@
+@import "../node_modules/flag-icon-css/css/flag-icons.min.css";
 @font-face {
   font-family: "Dusha";
   src: url(".//fonts/DushaRegular.woff2") format("woff2"), url(".//fonts/DushaRegular.woff") format("woff");
@@ -1184,6 +1185,9 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
 .cover .title {
   position: absolute;
   z-index: 3;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 .cover h1 {
   margin: 0;

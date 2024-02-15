@@ -1,0 +1,2147 @@
+{
+	"joueurs": [
+	  {
+		"prenom": "Yassine",
+		"nom": "Madani",
+		"nationalite": ["dz", "fr"],
+		"numeroMaillot": 16,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Gardien de But",
+		"lieuNaissance": "Béni Saf, Algérie",
+		"dateNaissance": "28 mai 2008",
+		"biographie": "biographie",
+		"nbMatchs": 117,
+		"nbButs": 0,
+		"clubFormateur": "FC Aix-en-Provence",
+		"periodeAuClub": "Depuis 2017",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence", 
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 57,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 24
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 58,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 56
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "Getafe CF",
+			"apparitions": 40,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 42
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "1. FC Nürnberg",
+			"apparitions": 33,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 28
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "Rodez AF",
+			"apparitions": 37,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 32
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 2,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 2
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 0
+		  },
+		  {
+			"saison": "2023-2024",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Thomas",
+		"nom": "Didillon",
+		"nationalite": ["fr"],
+		"numeroMaillot": 1,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Gardien de But",
+		"lieuNaissance": "Seclin, France",
+		"dateNaissance": "28 novembre 1995",
+		"biographie": "biographie",
+		"nbMatchs": 78,
+		"nbButs": 0,
+		"clubFormateur": "FC Metz",
+		"periodeAuClub": "2025-2027 et depuis 2030",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 0
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Nantes",
+			"apparitions": 2,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 0
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "Stade Rennais",
+			"apparitions": 44,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 38
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Nantes",
+			"apparitions": 3,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 5
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 39,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 48
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 39,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 52
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "Toulouse FC",
+			"apparitions": 33,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 34
+		  },
+		  {
+			"saison": "2023-2024",
+			"club": "Cercle Brugge",
+			"apparitions": 35,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 50
+		  },
+		  {
+			"saison": "2022-2023",
+			"club": "AS Monaco",
+			"apparitions": 4,
+			"buts": 0,
+			"passes": 0,
+			"encaisses": 4
+		  }
+		]
+	  },
+	  {
+		"prenom": "Leny",
+		"nom": "Yoro",
+		"nationalite": ["fr"],
+		"numeroMaillot": 15,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Défenseur",
+		"lieuNaissance": "Saint-Maurice, France",
+		"dateNaissance": "13 novembre 2005",
+		"biographie": "biographie",
+		"nbMatchs": 131,
+		"nbButs": 16,
+		"clubFormateur": "LOSC",
+		"periodeAuClub": "2022-2024 et depuis 2029",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 35,
+			"buts": 6,
+			"passes": 1
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 46,
+			"buts": 4,
+			"passes": 0
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "LOSC",
+			"apparitions": 50,
+			"buts": 2,
+			"passes": 0
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "LOSC",
+			"apparitions": 43,
+			"buts": 1,
+			"passes": 1
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "LOSC",
+			"apparitions": 21,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "LOSC",
+			"apparitions": 34,
+			"buts": 0,
+			"passes": 2
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "LOSC",
+			"apparitions": 11,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2023-2024",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 33,
+			"buts": 6,
+			"passes": 1
+		  },
+		  {
+			"saison": "2022-2023",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 17,
+			"buts": 0,
+			"passes": 1
+		  }
+		]
+	  },
+	  {
+		"nom": "Flávio",
+		"nationalite": ["br", "pt"],
+		"numeroMaillot": 24,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Défenseur",
+		"lieuNaissance": "Prudentopolis (PR), Brésil",
+		"dateNaissance": "18 février 2009",
+		"biographie": "biographie",
+		"nbMatchs": 36,
+		"nbButs": 0,
+		"clubFormateur": "FC Porto",
+		"periodeAuClub": "Depuis 2030",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 36,
+			"buts": 0,
+			"passes": 2
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Porto",
+			"apparitions": 27,
+			"buts": 1,
+			"passes": 0
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "1. FC Nürnberg",
+			"apparitions": 33,
+			"buts": 0,
+			"passes": 1
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "Moreirense",
+			"apparitions": 26,
+			"buts": 1,
+			"passes": 0
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "FC Porto",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Marcus",
+		"nom": "Gustafsson",
+		"nationalite": ["se"],
+		"numeroMaillot": 3,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Défenseur",
+		"lieuNaissance": "Malmö, Suède",
+		"dateNaissance": "12 avril 2010",
+		"biographie": "biographie",
+		"nbMatchs": 7,
+		"nbButs": 0,
+		"clubFormateur": "Malmö FF",
+		"periodeAuClub": "Depuis 2030",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 7,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "Malmö FF",
+			"apparitions": 16,
+			"buts": 0,
+			"passes": 2
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "Malmö FF",
+			"apparitions": 30,
+			"buts": 1,
+			"passes": 2
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "Malmö FF",
+			"apparitions": 25,
+			"buts": 1,
+			"passes": 4
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "Malmö FF",
+			"apparitions": 7,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Conner",
+		"nom": "Loffeld",
+		"nationalite": ["nl"],
+		"numeroMaillot": 6,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Défenseur",
+		"lieuNaissance": "Amersfoort, Pays-Bas",
+		"dateNaissance": "5 septembre 2007",
+		"biographie": "biographie",
+		"nbMatchs": 49,
+		"nbButs": 0,
+		"clubFormateur": "FC Utrecht",
+		"periodeAuClub": "Depuis 2030",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 49,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Utrecht",
+			"apparitions": 31,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "FC Utrecht",
+			"apparitions": 52,
+			"buts": 3,
+			"passes": 1
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Utrecht",
+			"apparitions": 52,
+			"buts": 2,
+			"passes": 4
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "FC Utrecht",
+			"apparitions": 44,
+			"buts": 1,
+			"passes": 3
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "FC Utrecht",
+			"apparitions": 25,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "FC Utrecht",
+			"apparitions": 2,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Carlos",
+		"nom": "Del Castillo",
+		"nationalite": ["ar"],
+		"numeroMaillot": 4,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Défenseur",
+		"lieuNaissance": "Longchamps (BA), Argentine",
+		"dateNaissance": "28 juillet 2008",
+		"biographie": "biographie",
+		"nbMatchs": 0,
+		"nbButs": 0,
+		"clubFormateur": "Racing Club",
+		"periodeAuClub": "Depuis 2030",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "Liverpool FC",
+			"apparitions": 55,
+			"buts": 2,
+			"passes": 1
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "Liverpool FC",
+			"apparitions": 42,
+			"buts": 2,
+			"passes": 3
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "Liverpool FC",
+			"apparitions": 53,
+			"buts": 0,
+			"passes": 2
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "Liverpool FC",
+			"apparitions": 27,
+			"buts": 0,
+			"passes": 3
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "Liverpool FC",
+			"apparitions": 23,
+			"buts": 0,
+			"passes": 2
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "Racing Club",
+			"apparitions": 19,
+			"buts": 0,
+			"passes": 1
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "Racing Club",
+			"apparitions": 45,
+			"buts": 1,
+			"passes": 6
+		  }
+		]
+	  },
+	  {
+		"prenom": "Thibaud",
+		"nom": "Fevre",
+		"nationalite": ["ca", "fr"],
+		"numeroMaillot": 99,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Défenseur",
+		"lieuNaissance": "Terrebonne (QC), Canada",
+		"dateNaissance": "27 août 2009",
+		"biographie": "biographie",
+		"nbMatchs": 6,
+		"nbButs": 0,
+		"clubFormateur": "AS Monaco",
+		"periodeAuClub": "Depuis 2029",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Nantes",
+			"apparitions": 39,
+			"buts": 0,
+			"passes": 1
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 6,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "AS Monaco",
+			"apparitions": 9,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Mathieu",
+		"nom": "Moinard",
+		"nationalite": ["fr"],
+		"numeroMaillot": 26,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Défenseur",
+		"lieuNaissance": "Toulon, France",
+		"dateNaissance": "2 novembre 2007",
+		"biographie": "biographie",
+		"nbMatchs": 58,
+		"nbButs": 1,
+		"clubFormateur": "OGC Nice",
+		"periodeAuClub": "Depuis 2029",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 27,
+			"buts": 1,
+			"passes": 4
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 31,
+			"buts": 0,
+			"passes": 3
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "OGC Nice",
+			"apparitions": 46,
+			"buts": 1,
+			"passes": 4
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "OGC Nice",
+			"apparitions": 41,
+			"buts": 0,
+			"passes": 1
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "Angers SCO",
+			"apparitions": 13,
+			"buts": 1,
+			"passes": 2
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "OGC Nice",
+			"apparitions": 3,
+			"buts": 0,
+			"passes": 1
+		  }
+		]
+	  },
+	  {
+		"prenom": "Erwin",
+		"nom": "Bouws",
+		"nationalite": ["nl"],
+		"numeroMaillot": 2,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Défenseur",
+		"lieuNaissance": "Noordscheschut, Pays-Bas",
+		"dateNaissance": "30 octobre 2007",
+		"biographie": "biographie",
+		"nbMatchs": 200,
+		"nbButs": 2,
+		"clubFormateur": "Fortuna Sittard",
+		"periodeAuClub": "Depuis 2026",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 44,
+			"buts": 0,
+			"passes": 8
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 44,
+			"buts": 1,
+			"passes": 5
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 42,
+			"buts": 0,
+			"passes": 8
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 42,
+			"buts": 1,
+			"passes": 2
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 30,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "Fortuna Sittard",
+			"apparitions": 40,
+			"buts": 1,
+			"passes": 3
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "Fortuna Sittard",
+			"apparitions": 21,
+			"buts": 4,
+			"passes": 6
+		  },
+		  {
+			"saison": "2023-2024",
+			"club": "Fortuna Sittard",
+			"apparitions": 17,
+			"buts": 3,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Renato",
+		"nom": "Ribelato",
+		"nationalite": ["br"],
+		"numeroMaillot": 23,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Défenseur",
+		"lieuNaissance": "Rosario do Sul (RS), Brésil",
+		"dateNaissance": "20 juillet 2009",
+		"biographie": "biographie",
+		"nbMatchs": 89,
+		"nbButs": 0,
+		"clubFormateur": "SC Internacional",
+		"periodeAuClub": "Depuis 2029",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 44,
+			"buts": 0,
+			"passes": 8
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 45,
+			"buts": 0,
+			"passes": 6
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "Real Madrid",
+			"apparitions": 16,
+			"buts": 1,
+			"passes": 2
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "Real Madrid",
+			"apparitions": 17,
+			"buts": 0,
+			"passes": 1
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "SC Internacional",
+			"apparitions": 44,
+			"buts": 0,
+			"passes": 5
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "Internacional",
+			"apparitions": 35,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "SC Internacional",
+			"apparitions": 19,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Mickaël",
+		"nom": "Lorentz",
+		"nationalite": ["fr"],
+		"numeroMaillot": 5,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Défenseur",
+		"lieuNaissance": "La Seyne-sur-Mer, France",
+		"dateNaissance": "20 juin 2009",
+		"biographie": "biographie",
+		"nbMatchs": 20,
+		"nbButs": 2,
+		"clubFormateur": "FC Aix-en-Provence",
+		"periodeAuClub": "Depuis 2027",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 7,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 18,
+			"buts": 2,
+			"passes": 0
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "Fuenlabrada CF",
+			"apparitions": 42,
+			"buts": 0,
+			"passes": 3
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Jean",
+		"nom": "Ndongo",
+		"nationalite": ["fr", "cm"],
+		"numeroMaillot": 18,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Milieu de Terrain",
+		"lieuNaissance": "Cormeilles-en-Parisis, France",
+		"dateNaissance": "14 novembre 2007",
+		"biographie": "biographie",
+		"nbMatchs": 240,
+		"nbButs": 13,
+		"clubFormateur": "FC Aix-en-Provence",
+		"periodeAuClub": "Depuis 2022",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 37,
+			"buts": 2,
+			"passes": 7
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 43,
+			"buts": 6,
+			"passes": 4
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 50,
+			"buts": 4,
+			"passes": 9
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 38,
+			"buts": 0,
+			"passes": 5
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 30,
+			"buts": 1,
+			"passes": 0
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 32,
+			"buts": 0,
+			"passes": 4
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 9,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2023-2024",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 11,
+			"buts": 0,
+			"passes": 3
+		  },
+		  {
+			"saison": "2022-2023",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Bryan",
+		"nom": "Langlois",
+		"nationalite": ["fr", "pt"],
+		"numeroMaillot": 19,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Milieu de Terrain",
+		"lieuNaissance": "Bry-sur-Marne, France",
+		"dateNaissance": "18 mai 2010",
+		"biographie": "biographie",
+		"nbMatchs": 82,
+		"nbButs": 8,
+		"clubFormateur": "Sporting CP",
+		"periodeAuClub": "Depuis 2029",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 42,
+			"buts": 3,
+			"passes": 7
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 40,
+			"buts": 5,
+			"passes": 4
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "Sporting CP",
+			"apparitions": 50,
+			"buts": 2,
+			"passes": 6
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "AJ Auxerre",
+			"apparitions": 42,
+			"buts": 2,
+			"passes": 4
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "Sporting CP",
+			"apparitions": 1,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "Sporting CP",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Reha",
+		"nom": "Çelik",
+		"nationalite": ["tr", "be"],
+		"numeroMaillot": 8,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Milieu de Terrain",
+		"lieuNaissance": "Giresun, Turquie",
+		"dateNaissance": "24 juillet 2006",
+		"biographie": "biographie",
+		"nbMatchs": 149,
+		"nbButs": 13,
+		"clubFormateur": "FC Groningen",
+		"periodeAuClub": "Depuis 2027",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 33,
+			"buts": 4,
+			"passes": 3
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 46,
+			"buts": 3,
+			"passes": 6
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 51,
+			"buts": 4,
+			"passes": 3
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 19,
+			"buts": 2,
+			"passes": 1
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Groningen",
+			"apparitions": 20,
+			"buts": 1,
+			"passes": 4
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "FC Groningen",
+			"apparitions": 32,
+			"buts": 0,
+			"passes": 3
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "FC Groningen",
+			"apparitions": 27,
+			"buts": 1,
+			"passes": 2
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "FC Groningen",
+			"apparitions": 10,
+			"buts": 0,
+			"passes": 3
+		  },
+		  {
+			"saison": "2023-2024",
+			"club": "FC Groningen",
+			"apparitions": 23,
+			"buts": 0,
+			"passes": 3
+		  },
+		  {
+			"saison": "2022-2023",
+			"club": "FC Groningen",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Cyril",
+		"nom": "Dujardin",
+		"nationalite": ["fr"],
+		"numeroMaillot": 99,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Milieu de Terrain",
+		"lieuNaissance": "Croix, France",
+		"dateNaissance": "11 mars 2009",
+		"biographie": "biographie",
+		"nbMatchs": 48,
+		"nbButs": 1,
+		"clubFormateur": "LOSC",
+		"periodeAuClub": "Depuis 2027",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Sochaux-Montbéliard",
+			"apparitions": 35,
+			"buts": 0,
+			"passes": 5
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "Boavista FC",
+			"apparitions": 20,
+			"buts": 0,
+			"passes": 1
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 16,
+			"buts": 1,
+			"passes": 0
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 31,
+			"buts": 0,
+			"passes": 5
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 1,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "LOSC",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Abel",
+		"nom": "Diaz",
+		"nationalite": ["es"],
+		"numeroMaillot": 99,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Milieu de Terrain",
+		"lieuNaissance": "Langreo, Espagne",
+		"dateNaissance": "14 juillet 2009",
+		"biographie": "biographie",
+		"nbMatchs": 4,
+		"nbButs": 0,
+		"clubFormateur": "UP Langreo",
+		"periodeAuClub": "Depuis 2027",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "Union Berlin",
+			"apparitions": 27,
+			"buts": 8,
+			"passes": 3
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "SC Heerenveen",
+			"apparitions": 17,
+			"buts": 4,
+			"passes": 1
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 4,
+			"buts": 0,
+			"passes": 2
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "Lech Poznan",
+			"apparitions": 32,
+			"buts": 2,
+			"passes": 1
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "UP Langreo",
+			"apparitions": 1,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "UP Langreo",
+			"apparitions": 17,
+			"buts": 3,
+			"passes": 1
+		  }
+		]
+	  },
+	  {
+		"prenom": "Arsen",
+		"nom": "Zakharyan",
+		"nationalite": ["ru", "am"],
+		"numeroMaillot": 10,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Milieu de Terrain",
+		"lieuNaissance": "Samara, Russie",
+		"dateNaissance": "26 mai 2003",
+		"biographie": "biographie",
+		"nbMatchs": 128,
+		"nbButs": 45,
+		"clubFormateur": "FK Dinamo Moskva",
+		"periodeAuClub": "Depuis 2028",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 47,
+			"buts": 21,
+			"passes": 26
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 42,
+			"buts": 11,
+			"passes": 14
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 39,
+			"buts": 13,
+			"passes": 10
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FK Dinamo Moskva",
+			"apparitions": 25,
+			"buts": 2,
+			"passes": 4
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "FK Dinamo Moskva",
+			"apparitions": 24,
+			"buts": 6,
+			"passes": 5
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "FK Dinamo Moskva",
+			"apparitions": 27,
+			"buts": 3,
+			"passes": 3
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "FK Dinamo Moskva",
+			"apparitions": 26,
+			"buts": 5,
+			"passes": 4
+		  },
+		  {
+			"saison": "2023-2024",
+			"club": "FK Dinamo Moskva",
+			"apparitions": 23,
+			"buts": 3,
+			"passes": 4
+		  },
+		  {
+			"saison": "2022-2023",
+			"club": "FK Dinamo Moskva",
+			"apparitions": 24,
+			"buts": 1,
+			"passes": 6
+		  },
+		  {
+			"saison": "2021-2022",
+			"club": "FK Dinamo Moskva",
+			"apparitions": 34,
+			"buts": 9,
+			"passes": 9
+		  },
+		  {
+			"saison": "2020-2021",
+			"club": "FK Dinamo Moskva",
+			"apparitions": 13,
+			"buts": 3,
+			"passes": 5
+		  }
+		]
+	  },
+	  {
+		"prenom": "Andrés",
+		"nom": "Mosquera",
+		"nationalite": ["co"],
+		"numeroMaillot": 28,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Milieu de Terrain",
+		"lieuNaissance": "Soledad, Colombie",
+		"dateNaissance": "15 avril 2007",
+		"biographie": "biographie",
+		"nbMatchs": 0,
+		"nbButs": 0,
+		"clubFormateur": "CD Junior",
+		"periodeAuClub": "Depuis 2031",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "Hellas Verona",
+			"apparitions": 31,
+			"buts": 4,
+			"passes": 3
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "Hellas Verona",
+			"apparitions": 55,
+			"buts": 15,
+			"passes": 7
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "Hellas Verona",
+			"apparitions": 39,
+			"buts": 6,
+			"passes": 5
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "Hellas Verona",
+			"apparitions": 34,
+			"buts": 5,
+			"passes": 1
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "Liverpool FC",
+			"apparitions": 6,
+			"buts": 0,
+			"passes": 1
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "CD Junior",
+			"apparitions": 27,
+			"buts": 5,
+			"passes": 6
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "CD Junior",
+			"apparitions": 36,
+			"buts": 7,
+			"passes": 5
+		  },
+		  {
+			"saison": "2023-2024",
+			"club": "CD Junior",
+			"apparitions": 19,
+			"buts": 2,
+			"passes": 1
+		  },
+		  {
+			"saison": "2022-2023",
+			"club": "CD Junior",
+			"apparitions": 7,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Carsten",
+		"nom": "Mohr",
+		"nationalite": ["de"],
+		"numeroMaillot": 17,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Milieu de Terrain",
+		"lieuNaissance": "Bad Kreuznach, Allemagne",
+		"dateNaissance": "12 février 2009",
+		"biographie": "biographie",
+		"nbMatchs": 45,
+		"nbButs": 10,
+		"clubFormateur": "1. FC Kaiserslautern",
+		"periodeAuClub": "Depuis 2030",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "1. FC Kaiserslautern",
+			"apparitions": 45,
+			"buts": 10,
+			"passes": 16
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "1. FC Kaiserslautern",
+			"apparitions": 29,
+			"buts": 9,
+			"passes": 4
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "1. FC Kaiserslautern",
+			"apparitions": 35,
+			"buts": 1,
+			"passes": 6
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "1. FC Kaiserslautern",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Hector",
+		"nom": "Segers",
+		"nationalite": ["be"],
+		"numeroMaillot": 32,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Milieu de Terrain",
+		"lieuNaissance": "Oudenaarde, Belgique",
+		"dateNaissance": "7 septembre 2009",
+		"biographie": "biographie",
+		"nbMatchs": 3,
+		"nbButs": 0,
+		"clubFormateur": "FC Aix-en-Provence",
+		"periodeAuClub": "Depuis 2027",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 3,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "SM Caen",
+			"apparitions": 35,
+			"buts": 5,
+			"passes": 7
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "APOEL Nicosia",
+			"apparitions": 44,
+			"buts": 11,
+			"passes": 5
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "KSV Oudenaarde",
+			"apparitions": 4,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "KSV Oudenaarde",
+			"apparitions": 19,
+			"buts": 1,
+			"passes": 2
+		  }
+		]
+	  },
+	  {
+		"prenom": "Kevin",
+		"nom": "Payne",
+		"nationalite": ["be", "gb-eng"],
+		"numeroMaillot": 99,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Milieu de Terrain",
+		"lieuNaissance": "Tessenderlo, Belgique",
+		"dateNaissance": "14 juillet 2009",
+		"biographie": "biographie",
+		"nbMatchs": 20,
+		"nbButs": 3,
+		"clubFormateur": "KVV Thes Sport",
+		"periodeAuClub": "Depuis 2026",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "Borussia Mönchengladbach",
+			"apparitions": 4,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 20,
+			"buts": 3,
+			"passes": 2
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "Bologna FC",
+			"apparitions": 38,
+			"buts": 7,
+			"passes": 6
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "UD Almeria",
+			"apparitions": 36,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "Sint-Truidense VV",
+			"apparitions": 1,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "KVV Thes Sport",
+			"apparitions": 26,
+			"buts": 2,
+			"passes": 6
+		  }
+		]
+	  },
+	  {
+		"prenom": "Badredine",
+		"nom": "Bouanani",
+		"nationalite": ["fr", "dz"],
+		"numeroMaillot": 7,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Attaquant",
+		"lieuNaissance": "Lille, France",
+		"dateNaissance": "8 décembre 2004",
+		"biographie": "biographie",
+		"nbMatchs": 85,
+		"nbButs": 21,
+		"clubFormateur": "LOSC",
+		"periodeAuClub": "Depuis 2029",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 35,
+			"buts": 14,
+			"passes": 20
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 50,
+			"buts": 9,
+			"passes": 19
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "OGC Nice",
+			"apparitions": 46,
+			"buts": 6,
+			"passes": 2
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "OGC Nice",
+			"apparitions": 46,
+			"buts": 5,
+			"passes": 4
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "OGC Nice",
+			"apparitions": 33,
+			"buts": 13,
+			"passes": 4
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "OGC Nice",
+			"apparitions": 51,
+			"buts": 15,
+			"passes": 5
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "OGC Nice",
+			"apparitions": 40,
+			"buts": 10,
+			"passes": 7
+		  },
+		  {
+			"saison": "2023-2024",
+			"club": "OGC Nice",
+			"apparitions": 46,
+			"buts": 6,
+			"passes": 6
+		  },
+		  {
+			"saison": "2022-2023",
+			"club": "FC Girondins de Bordeaux",
+			"apparitions": 32,
+			"buts": 7,
+			"passes": 5
+		  },
+		  {
+			"saison": "2021-2022",
+			"club": "LOSC",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Vincent",
+		"nom": "Mahe",
+		"nationalite": ["fr"],
+		"numeroMaillot": 13,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Attaquant",
+		"lieuNaissance": "Caluire-et-Cuire, France",
+		"dateNaissance": "31 août 2007",
+		"biographie": "biographie",
+		"nbMatchs": 82,
+		"nbButs": 62,
+		"clubFormateur": "Olympique Lyonnais",
+		"periodeAuClub": "Depuis 2029",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 47,
+			"buts": 42,
+			"passes": 7
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 35,
+			"buts": 20,
+			"passes": 7
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "Olympique Lyonnais",
+			"apparitions": 3,
+			"buts": 4,
+			"passes": 0
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "Olympique Lyonnais",
+			"apparitions": 36,
+			"buts": 27,
+			"passes": 2
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "Olympique Lyonnais",
+			"apparitions": 33,
+			"buts": 9,
+			"passes": 2
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "Olympique Lyonnais",
+			"apparitions": 26,
+			"buts": 4,
+			"passes": 2
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "Olympique Lyonnais",
+			"apparitions": 4,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "Olympique Lyonnais",
+			"apparitions": 3,
+			"buts": 1,
+			"passes": 1
+		  },
+		  {
+			"saison": "2023-2024",
+			"club": "Olympique Lyonnais",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Yacine",
+		"nom": "Ferre",
+		"nationalite": ["fr"],
+		"numeroMaillot": 11,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Attaquant",
+		"lieuNaissance": "Istres, France",
+		"dateNaissance": "21 avril 2008",
+		"biographie": "biographie",
+		"nbMatchs": 3,
+		"nbButs": 0,
+		"clubFormateur": "FC Aix-en-Provence",
+		"periodeAuClub": "Depuis 2027",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 3,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "AS Saint-Étienne",
+			"apparitions": 29,
+			"buts": 1,
+			"passes": 6
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "Malaga CF",
+			"apparitions": 43,
+			"buts": 4,
+			"passes": 2
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "Lech Poznan",
+			"apparitions": 3,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Quentin",
+		"nom": "Goetz",
+		"nationalite": ["fr"],
+		"numeroMaillot": 27,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Attaquant",
+		"lieuNaissance": "Azpeitia, Espagne",
+		"dateNaissance": "11 octobre 2009",
+		"biographie": "biographie",
+		"nbMatchs": 11,
+		"nbButs": 2,
+		"clubFormateur": "Lagun Onak",
+		"periodeAuClub": "Depuis 2027",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 9,
+			"buts": 2,
+			"passes": 4
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "Hannover 96",
+			"apparitions": 20,
+			"buts": 5,
+			"passes": 0
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "Deportivo Alavés",
+			"apparitions": 13,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 2,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "Paris FC",
+			"apparitions": 42,
+			"buts": 4,
+			"passes": 2
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "Lagun Onak",
+			"apparitions": 43,
+			"buts": 14,
+			"passes": 5
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "Lagun Onak",
+			"apparitions": 27,
+			"buts": 9,
+			"passes": 6
+		  }
+		]
+	  },
+	  {
+		"prenom": "Alvaro",
+		"nom": "Iriondo",
+		"nationalite": ["es"],
+		"numeroMaillot": 20,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Attaquant",
+		"lieuNaissance": "Pampelune, Espagne",
+		"dateNaissance": "29 septembre 2009",
+		"biographie": "biographie",
+		"nbMatchs": 29,
+		"nbButs": 5,
+		"clubFormateur": "AD San Juan",
+		"periodeAuClub": "Depuis 2026",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 28,
+			"buts": 5,
+			"passes": 4
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "Vitoria SC",
+			"apparitions": 41,
+			"buts": 11,
+			"passes": 4
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "FC Arouca",
+			"apparitions": 38,
+			"buts": 6,
+			"passes": 3
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "Grenoble Foot 38",
+			"apparitions": 34,
+			"buts": 12,
+			"passes": 2
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "AD San Juan",
+			"apparitions": 15,
+			"buts": 8,
+			"passes": 0
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "AD San Juan",
+			"apparitions": 39,
+			"buts": 6,
+			"passes": 1
+		  }
+		]
+	  },
+	  {
+		"prenom": "Frédéric",
+		"nom": "Salini",
+		"nationalite": ["fr"],
+		"numeroMaillot": 22,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Attaquant",
+		"lieuNaissance": "Château-Arnoux-Saint-Auban, France",
+		"dateNaissance": "18 février 2008",
+		"biographie": "biographie",
+		"nbMatchs": 126,
+		"nbButs": 37,
+		"clubFormateur": "FC Aix-en-Provence",
+		"periodeAuClub": "Depuis 2023",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 15,
+			"buts": 0,
+			"passes": 1
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 36,
+			"buts": 4,
+			"passes": 6
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 36,
+			"buts": 2,
+			"passes": 5
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 31,
+			"buts": 9,
+			"passes": 1
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "GD Chaves",
+			"apparitions": 37,
+			"buts": 9,
+			"passes": 1
+		  },
+		  {
+			"saison": "2025-2026",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 8,
+			"buts": 3,
+			"passes": 1
+		  },
+		  {
+			"saison": "2024-2025",
+			"club": "SC Toulon",
+			"apparitions": 17,
+			"buts": 4,
+			"passes": 0
+		  },
+		  {
+			"saison": "2023-2024",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  },
+	  {
+		"prenom": "Yan",
+		"nom": "Bellard",
+		"nationalite": ["fr"],
+		"numeroMaillot": 9,
+		"photo": "lien_vers_la_photo_messi.jpg",
+		"position": "Attaquant",
+		"lieuNaissance": "Strasbourg, France",
+		"dateNaissance": "29 janvier 2009",
+		"biographie": "biographie",
+		"nbMatchs": 29,
+		"nbButs": 14,
+		"clubFormateur": "AJ Auxerre",
+		"periodeAuClub": "Depuis 2027",
+		"statsCarriere": [
+		  {
+			"saison": "2031-2032",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 0,
+			"buts": 0,
+			"passes": 0
+		  },
+		  {
+			"saison": "2030-2031",
+			"club": "FC Aix-en-Provence",
+			"apparitions": 29,
+			"buts": 14,
+			"passes": 0
+		  },
+		  {
+			"saison": "2029-2030",
+			"club": "SC Braga",
+			"apparitions": 47,
+			"buts": 24,
+			"passes": 5
+		  },
+		  {
+			"saison": "2028-2029",
+			"club": "FC Famalicao",
+			"apparitions": 40,
+			"buts": 11,
+			"passes": 2
+		  },
+		  {
+			"saison": "2027-2028",
+			"club": "KAS Eupen",
+			"apparitions": 33,
+			"buts": 5,
+			"passes": 0
+		  },
+		  {
+			"saison": "2026-2027",
+			"club": "AJ Auxerre",
+			"apparitions": 7,
+			"buts": 0,
+			"passes": 0
+		  }
+		]
+	  }
+	]
+  }
+  

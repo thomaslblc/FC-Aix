@@ -8,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "flag-icon-css": "^4.1.7",
     "include-media": "^2.0.0",
     "sass": "^1.70.0"
   },
