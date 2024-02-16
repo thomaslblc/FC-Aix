@@ -1,0 +1,49 @@
+.team-layout-container {
+    background-color: #eeeeee;
+
+    .team-layout {
+        display: flex;
+        flex-direction: column;
+
+        .team-cards-display {
+            display: grid;
+            width: 100%;
+            grid-gap: 20px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+            .player-card {
+                display: flex;
+                flex-direction: column;
+                background-color: #ffffff;
+
+                .contenu {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: $small-value;
+                    align-items: center;
+
+                    .infos {
+
+                        p {
+                            margin: 0;
+                        }
+                    }
+
+                    .numero {
+                        display: flex;
+                        height: 100%;
+                        p {
+                            margin: 0;
+                            height: 100%;
+                            font-size: 50px;
+                            line-height: 1em;
+                            font-weight: bold;
+                            opacity: .2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

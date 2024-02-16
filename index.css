@@ -214,12 +214,6 @@ h2 strong {
   color: #ffffff;
 }
 
-.team-layout div, .staff-layout div {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
-}
-
 .inner {
   max-width: 1440px;
   margin-left: auto;
@@ -1266,6 +1260,46 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
 }
 .entete span {
   font-size: 22px;
+}
+
+.team-layout-container {
+  background-color: #eeeeee;
+}
+.team-layout-container .team-layout {
+  display: flex;
+  flex-direction: column;
+}
+.team-layout-container .team-layout .team-cards-display {
+  display: grid;
+  width: 100%;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.team-layout-container .team-layout .team-cards-display .player-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.team-layout-container .team-layout .team-cards-display .player-card .contenu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+.team-layout-container .team-layout .team-cards-display .player-card .contenu .infos p {
+  margin: 0;
+}
+.team-layout-container .team-layout .team-cards-display .player-card .contenu .numero {
+  display: flex;
+  height: 100%;
+}
+.team-layout-container .team-layout .team-cards-display .player-card .contenu .numero p {
+  margin: 0;
+  height: 100%;
+  font-size: 50px;
+  line-height: 1em;
+  font-weight: bold;
+  opacity: 0.2;
 }
 
 /*# sourceMappingURL=index.css.map */

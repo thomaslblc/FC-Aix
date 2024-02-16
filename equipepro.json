@@ -1,0 +1,397 @@
+{
+  "joueurs": {
+    "goalkeepers": [
+      {
+        "prenom": "Yassine",
+        "nom": "Madani",
+        "nationalite": ["dz", "fr"],
+        "numeroMaillot": 16,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Thomas",
+        "nom": "Didillon",
+        "nationalite": ["fr"],
+        "numeroMaillot": 1,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Baptiste",
+        "nom": "Florentin",
+        "nationalite": ["fr"],
+        "numeroMaillot": 30,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      }
+    ],
+    "defenders": [
+      {
+        "prenom": "Leny",
+        "nom": "Yoro",
+        "nationalite": ["fr"],
+        "numeroMaillot": 15,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "nom": "Flávio",
+        "nationalite": ["br", "pt"],
+        "numeroMaillot": 24,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Marcus",
+        "nom": "Gustafsson",
+        "nationalite": ["se"],
+        "numeroMaillot": 3,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Conner",
+        "nom": "Loffeld",
+        "nationalite": ["nl"],
+        "numeroMaillot": 6,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Carlos",
+        "nom": "Del Castillo",
+        "nationalite": ["ar"],
+        "numeroMaillot": 4,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Thibaud",
+        "nom": "Fevre",
+        "nationalite": ["ca", "fr"],
+        "numeroMaillot": 99,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Mathieu",
+        "nom": "Moinard",
+        "nationalite": ["fr"],
+        "numeroMaillot": 26,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Erwin",
+        "nom": "Bouws",
+        "nationalite": ["nl"],
+        "numeroMaillot": 2,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Renato",
+        "nom": "Ribelato",
+        "nationalite": ["br"],
+        "numeroMaillot": 23,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Mickaël",
+        "nom": "Lorentz",
+        "nationalite": ["fr"],
+        "numeroMaillot": 5,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      }
+    ],
+    "midfielders": [
+      {
+        "prenom": "Jean",
+        "nom": "Ndongo",
+        "nationalite": ["fr", "cm"],
+        "numeroMaillot": 18,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Bryan",
+        "nom": "Langlois",
+        "nationalite": ["fr", "pt"],
+        "numeroMaillot": 19,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Reha",
+        "nom": "Çelik",
+        "nationalite": ["tr", "be"],
+        "numeroMaillot": 8,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Cyril",
+        "nom": "Dujardin",
+        "nationalite": ["fr"],
+        "numeroMaillot": 99,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Abel",
+        "nom": "Diaz",
+        "nationalite": ["es"],
+        "numeroMaillot": 99,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Arsen",
+        "nom": "Zakharyan",
+        "nationalite": ["ru", "am"],
+        "numeroMaillot": 10,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Andrés",
+        "nom": "Mosquera",
+        "nationalite": ["co"],
+        "numeroMaillot": 28,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Carsten",
+        "nom": "Mohr",
+        "nationalite": ["de"],
+        "numeroMaillot": 17,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Hector",
+        "nom": "Segers",
+        "nationalite": ["be"],
+        "numeroMaillot": 32,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Kevin",
+        "nom": "Payne",
+        "nationalite": ["be", "gb-eng"],
+        "numeroMaillot": 99,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      }
+    ],
+    "forwards": [
+      {
+        "prenom": "Badredine",
+        "nom": "Bouanani",
+        "nationalite": ["fr", "dz"],
+        "numeroMaillot": 7,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Vincent",
+        "nom": "Mahe",
+        "nationalite": ["fr"],
+        "numeroMaillot": 13,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Yacine",
+        "nom": "Ferre",
+        "nationalite": ["fr"],
+        "numeroMaillot": 11,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Quentin",
+        "nom": "Goetz",
+        "nationalite": ["fr"],
+        "numeroMaillot": 27,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Alvaro",
+        "nom": "Iriondo",
+        "nationalite": ["es"],
+        "numeroMaillot": 20,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Frédéric",
+        "nom": "Salini",
+        "nationalite": ["fr"],
+        "numeroMaillot": 22,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Yan",
+        "nom": "Bellard",
+        "nationalite": ["fr"],
+        "numeroMaillot": 9,
+        "photo": "lien_vers_la_photo_messi.jpg"
+      }
+    ]
+  },
+  "staff": {
+    "technique": [
+      {
+        "prenom": "Tobias",
+        "nom": "Van der Weiß",
+        "nationalite": ["be"],
+        "role": "Entraîneur",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Teddy",
+        "nom": "Mézague",
+        "nationalite": ["fr"],
+        "role": "Entraîneur adjoint",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Bradley",
+        "nom": "Fofana",
+        "nationalite": ["fr"],
+        "role": "Préparateur",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Antoine",
+        "nom": "Arrighi",
+        "nationalite": ["fr"],
+        "role": "Préparateur",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Stéphane",
+        "nom": "Mangione",
+        "nationalite": ["fr"],
+        "role": "Préparateur",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Miguel Angel",
+        "nom": "Angulo",
+        "nationalite": ["es"],
+        "role": "Préparateur",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Marcus",
+        "nom": "Berg",
+        "nationalite": ["se"],
+        "role": "Préparateur",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Benoît",
+        "nom": "Gerardin",
+        "nationalite": ["fr"],
+        "role": "Préparateur physique",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Alberto",
+        "nom": "Piernas",
+        "nationalite": ["es"],
+        "role": "Préparateur physique",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Inigo",
+        "nom": "Almandoz",
+        "nationalite": ["es"],
+        "role": "Préparateur physique",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Christophe",
+        "nom": "Revel",
+        "nationalite": ["fr"],
+        "role": "Entraîneur des gardiens",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Nuno",
+        "nom": "Santos",
+        "nationalite": ["pt"],
+        "role": "Entraîneur des gardiens",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      }
+    ],
+    "medical": [
+      {
+        "prenom": "Marie",
+        "nom": "Haddad",
+        "nationalite": ["fr"],
+        "role": "Directrice médical",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Martin",
+        "nom": "Besançon",
+        "nationalite": ["fr"],
+        "role": "Médecin",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Alexandre",
+        "nom": "Creuzet",
+        "nationalite": ["fr"],
+        "role": "Médecin",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Matthieu",
+        "nom": "Rachet",
+        "nationalite": ["fr"],
+        "role": "Kinésithérapeute",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Lise",
+        "nom": "Betton",
+        "nationalite": ["fr"],
+        "role": "Kinésithérapeute",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Baptiste",
+        "nom": "Courtois",
+        "nationalite": ["fr"],
+        "role": "Kinésithérapeute osthéopathe",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Simon",
+        "nom": "Nouteau",
+        "nationalite": ["fr"],
+        "role": "Kinésithérapeute osthéopathe",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Pepe",
+        "nom": "Fernandez Aranegas",
+        "nationalite": ["es"],
+        "role": "Nutritionniste",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      }
+    ],
+    "video": [
+      {
+        "prenom": "Clément",
+        "nom": "Gonin",
+        "nationalite": ["fr"],
+        "role": "Analyste vidéo",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Olivier",
+        "nom": "Petitjean",
+        "nationalite": ["fr"],
+        "role": "Analyste vidéo",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Anthony",
+        "nom": "Michel",
+        "nationalite": ["fr"],
+        "role": "Analyste vidéo",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      },
+      {
+        "prenom": "Julien",
+        "nom": "Le Goux",
+        "nationalite": ["fr"],
+        "role": "Analyste vidéo",
+        "photo": "lien_vers_la_photo_messi.jpg"
+      }
+    ]
+  }
+}

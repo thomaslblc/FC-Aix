@@ -113,12 +113,3 @@ h2 {
     }
   }
 }
-
-.team-layout, .staff-layout {
-
-  div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-  }
-}
