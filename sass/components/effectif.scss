@@ -1,49 +1,92 @@
 .team-layout-container {
-    background-color: #eeeeee;
+  background-color: #eeeeee;
 
-    .team-layout {
+  h2 {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 26px;
+    font-family: $ff-body;
+}
+
+  .team-layout {
+    display: flex;
+    flex-direction: column;
+
+    
+
+    .team-cards-display {
+      display: grid;
+      width: 100%;
+      grid-gap: 20px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+
+      .player-card {
         display: flex;
         flex-direction: column;
+        background-color: #ffffff;
+        justify-content: space-between;
 
-        .team-cards-display {
-            display: grid;
-            width: 100%;
-            grid-gap: 20px;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-
-            .player-card {
-                display: flex;
-                flex-direction: column;
-                background-color: #ffffff;
-
-                .contenu {
-                    display: flex;
-                    justify-content: space-between;
-                    padding: $small-value;
-                    align-items: center;
-
-                    .infos {
-
-                        p {
-                            margin: 0;
-                        }
-                    }
-
-                    .numero {
-                        display: flex;
-                        height: 100%;
-                        p {
-                            margin: 0;
-                            height: 100%;
-                            font-size: 50px;
-                            line-height: 1em;
-                            font-weight: bold;
-                            opacity: .2;
-                        }
-                    }
-                }
+        &:hover {
+            .visuel {
+                background-color: $color-2;
             }
         }
+
+        .visuel {
+            background-color: $color-3;
+            padding: $small-value;
+            padding-bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include transition();
+
+            img {
+                max-height: 180px;
+            }
+        }
+
+        .contenu {
+          display: flex;
+          justify-content: space-between;
+          padding: $small-value;
+          align-items: center;
+
+          .infos {
+            span {
+              text-transform: uppercase;
+              font-size: 12px;
+
+              strong {
+                display: block;
+                text-transform: none;
+                font-size: 26px;
+              }
+            }
+
+            p {
+              margin: 0;
+
+              .flag-icon {
+                margin-right: 10px;
+                font-size: 16px;
+              }
+            }
+          }
+
+          .numero {
+            display: flex;
+            align-self: flex-end;
+            p {
+              margin: 0;
+              font-size: 50px;
+              line-height: 1em;
+              font-weight: bold;
+              opacity: 0.2;
+            }
+          }
+        }
+      }
     }
-    
+  }
 }

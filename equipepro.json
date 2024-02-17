@@ -6,21 +6,21 @@
         "nom": "Madani",
         "nationalite": ["dz", "fr"],
         "numeroMaillot": 16,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/madani.png"
       },
       {
         "prenom": "Thomas",
         "nom": "Didillon",
         "nationalite": ["fr"],
         "numeroMaillot": 1,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/didillon.png"
       },
       {
         "prenom": "Baptiste",
         "nom": "Florentin",
         "nationalite": ["fr"],
         "numeroMaillot": 30,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/florentin.png"
       }
     ],
     "defenders": [
@@ -29,69 +29,69 @@
         "nom": "Yoro",
         "nationalite": ["fr"],
         "numeroMaillot": 15,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/yoro.png"
       },
       {
         "nom": "Flávio",
         "nationalite": ["br", "pt"],
         "numeroMaillot": 24,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/flavio.png"
       },
       {
         "prenom": "Marcus",
         "nom": "Gustafsson",
         "nationalite": ["se"],
         "numeroMaillot": 3,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/gustafsson.png"
       },
       {
         "prenom": "Conner",
         "nom": "Loffeld",
         "nationalite": ["nl"],
         "numeroMaillot": 6,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/loffeld.png"
       },
       {
         "prenom": "Carlos",
         "nom": "Del Castillo",
         "nationalite": ["ar"],
         "numeroMaillot": 4,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/delcastillo.png"
       },
       {
         "prenom": "Thibaud",
         "nom": "Fevre",
         "nationalite": ["ca", "fr"],
         "numeroMaillot": 99,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/fevre.png"
       },
       {
         "prenom": "Mathieu",
         "nom": "Moinard",
         "nationalite": ["fr"],
         "numeroMaillot": 26,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/moinard.png"
       },
       {
         "prenom": "Erwin",
         "nom": "Bouws",
         "nationalite": ["nl"],
         "numeroMaillot": 2,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/bouws.png"
       },
       {
         "prenom": "Renato",
         "nom": "Ribelato",
         "nationalite": ["br"],
         "numeroMaillot": 23,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/ribelato.png"
       },
       {
         "prenom": "Mickaël",
         "nom": "Lorentz",
         "nationalite": ["fr"],
         "numeroMaillot": 5,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/lorentz.png"
       }
     ],
     "midfielders": [
@@ -100,70 +100,70 @@
         "nom": "Ndongo",
         "nationalite": ["fr", "cm"],
         "numeroMaillot": 18,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/ndongo.png"
       },
       {
         "prenom": "Bryan",
         "nom": "Langlois",
         "nationalite": ["fr", "pt"],
         "numeroMaillot": 19,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/langlois.png"
       },
       {
         "prenom": "Reha",
         "nom": "Çelik",
         "nationalite": ["tr", "be"],
         "numeroMaillot": 8,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/celik.png"
       },
       {
         "prenom": "Cyril",
         "nom": "Dujardin",
         "nationalite": ["fr"],
         "numeroMaillot": 99,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/dujardin.png"
       },
       {
         "prenom": "Abel",
         "nom": "Diaz",
         "nationalite": ["es"],
         "numeroMaillot": 99,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/diaz.png"
       },
       {
         "prenom": "Arsen",
         "nom": "Zakharyan",
         "nationalite": ["ru", "am"],
         "numeroMaillot": 10,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/zakharyan.png"
       },
       {
         "prenom": "Andrés",
         "nom": "Mosquera",
         "nationalite": ["co"],
         "numeroMaillot": 28,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/mosquera.png"
       },
       {
         "prenom": "Carsten",
         "nom": "Mohr",
         "nationalite": ["de"],
         "numeroMaillot": 17,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/mohr.png"
       },
       {
         "prenom": "Hector",
         "nom": "Segers",
         "nationalite": ["be"],
         "numeroMaillot": 32,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/segers.png"
       },
       {
         "prenom": "Kevin",
         "nom": "Payne",
         "nationalite": ["be", "gb-eng"],
         "numeroMaillot": 99,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/payne.png"
       }
     ],
     "forwards": [
@@ -172,49 +172,49 @@
         "nom": "Bouanani",
         "nationalite": ["fr", "dz"],
         "numeroMaillot": 7,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/bouanani.png"
       },
       {
         "prenom": "Vincent",
         "nom": "Mahe",
         "nationalite": ["fr"],
         "numeroMaillot": 13,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/mahe.png"
       },
       {
         "prenom": "Yacine",
         "nom": "Ferre",
         "nationalite": ["fr"],
         "numeroMaillot": 11,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/ferre.png"
       },
       {
         "prenom": "Quentin",
         "nom": "Goetz",
         "nationalite": ["fr"],
         "numeroMaillot": 27,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/goetz.png"
       },
       {
         "prenom": "Alvaro",
         "nom": "Iriondo",
         "nationalite": ["es"],
         "numeroMaillot": 20,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/iriondo.png"
       },
       {
         "prenom": "Frédéric",
         "nom": "Salini",
         "nationalite": ["fr"],
         "numeroMaillot": 22,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/salini.png"
       },
       {
         "prenom": "Yan",
         "nom": "Bellard",
         "nationalite": ["fr"],
         "numeroMaillot": 9,
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/joueurs/bellard.png"
       }
     ]
   },

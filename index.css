@@ -1265,6 +1265,12 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
 .team-layout-container {
   background-color: #eeeeee;
 }
+.team-layout-container h2 {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 26px;
+  font-family: "Lato", sans-serif;
+}
 .team-layout-container .team-layout {
   display: flex;
   flex-direction: column;
@@ -1279,6 +1285,22 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
+  justify-content: space-between;
+}
+.team-layout-container .team-layout .team-cards-display .player-card:hover .visuel {
+  background-color: #ffb615;
+}
+.team-layout-container .team-layout .team-cards-display .player-card .visuel {
+  background-color: #8d042d;
+  padding: 1rem;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 150ms ease-in-out;
+}
+.team-layout-container .team-layout .team-cards-display .player-card .visuel img {
+  max-height: 180px;
 }
 .team-layout-container .team-layout .team-cards-display .player-card .contenu {
   display: flex;
@@ -1286,16 +1308,28 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   padding: 1rem;
   align-items: center;
 }
+.team-layout-container .team-layout .team-cards-display .player-card .contenu .infos span {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.team-layout-container .team-layout .team-cards-display .player-card .contenu .infos span strong {
+  display: block;
+  text-transform: none;
+  font-size: 26px;
+}
 .team-layout-container .team-layout .team-cards-display .player-card .contenu .infos p {
   margin: 0;
 }
+.team-layout-container .team-layout .team-cards-display .player-card .contenu .infos p .flag-icon {
+  margin-right: 10px;
+  font-size: 16px;
+}
 .team-layout-container .team-layout .team-cards-display .player-card .contenu .numero {
   display: flex;
-  height: 100%;
+  align-self: flex-end;
 }
 .team-layout-container .team-layout .team-cards-display .player-card .contenu .numero p {
   margin: 0;
-  height: 100%;
   font-size: 50px;
   line-height: 1em;
   font-weight: bold;
