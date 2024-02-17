@@ -1264,6 +1264,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
 
 .team-layout-container {
   background-color: #eeeeee;
+  padding: 70px 0;
 }
 .team-layout-container h2 {
   padding-left: 0;
@@ -1286,6 +1287,9 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   flex-direction: column;
   background-color: #ffffff;
   justify-content: space-between;
+}
+.team-layout-container .team-layout .team-cards-display .player-card:hover {
+  cursor: pointer;
 }
 .team-layout-container .team-layout .team-cards-display .player-card:hover .visuel {
   background-color: #ffb615;
@@ -1334,6 +1338,25 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   line-height: 1em;
   font-weight: bold;
   opacity: 0.2;
+}
+.team-layout-container .team-layout .team-cards-display .player-card.staff .contenu {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.team-layout-container .team-layout .team-cards-display .player-card.staff .contenu .infos p .flag-icon {
+  margin: 0;
+}
+.team-layout-container .team-layout .team-cards-display .player-card.staff .contenu .role {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.team-layout-container .team-layout .team-cards-display .player-card.staff .contenu .role p {
+  margin: 0;
+  font-family: "Gentium", sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=index.css.map */

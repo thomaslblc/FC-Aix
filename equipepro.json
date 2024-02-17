@@ -225,84 +225,84 @@
         "nom": "Van der Weiß",
         "nationalite": ["be"],
         "role": "Entraîneur",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/vanderweiss.png"
       },
       {
         "prenom": "Teddy",
         "nom": "Mézague",
         "nationalite": ["fr"],
         "role": "Entraîneur adjoint",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/mezague.png"
       },
       {
         "prenom": "Bradley",
         "nom": "Fofana",
         "nationalite": ["fr"],
         "role": "Préparateur",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/fofana.png"
       },
       {
         "prenom": "Antoine",
         "nom": "Arrighi",
         "nationalite": ["fr"],
         "role": "Préparateur",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/arrighi.png"
       },
       {
         "prenom": "Stéphane",
         "nom": "Mangione",
         "nationalite": ["fr"],
         "role": "Préparateur",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/mangione.png"
       },
       {
         "prenom": "Miguel Angel",
         "nom": "Angulo",
         "nationalite": ["es"],
         "role": "Préparateur",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/angulo.png"
       },
       {
         "prenom": "Marcus",
         "nom": "Berg",
         "nationalite": ["se"],
         "role": "Préparateur",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/berg.png"
       },
       {
         "prenom": "Benoît",
         "nom": "Gerardin",
         "nationalite": ["fr"],
         "role": "Préparateur physique",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/gerardin.png"
       },
       {
         "prenom": "Alberto",
         "nom": "Piernas",
         "nationalite": ["es"],
         "role": "Préparateur physique",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/piernas.png"
       },
       {
         "prenom": "Inigo",
         "nom": "Almandoz",
         "nationalite": ["es"],
         "role": "Préparateur physique",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/almandoz.png"
       },
       {
         "prenom": "Christophe",
         "nom": "Revel",
         "nationalite": ["fr"],
         "role": "Entraîneur des gardiens",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/revel.png"
       },
       {
         "prenom": "Nuno",
         "nom": "Santos",
         "nationalite": ["pt"],
         "role": "Entraîneur des gardiens",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/santos.png"
       }
     ],
     "medical": [
@@ -311,56 +311,56 @@
         "nom": "Haddad",
         "nationalite": ["fr"],
         "role": "Directrice médical",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/"
       },
       {
         "prenom": "Martin",
         "nom": "Besançon",
         "nationalite": ["fr"],
         "role": "Médecin",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/besancon.png"
       },
       {
         "prenom": "Alexandre",
         "nom": "Creuzet",
         "nationalite": ["fr"],
         "role": "Médecin",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/creuzet.png"
       },
       {
         "prenom": "Matthieu",
         "nom": "Rachet",
         "nationalite": ["fr"],
         "role": "Kinésithérapeute",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/rachet.png"
       },
       {
         "prenom": "Lise",
         "nom": "Betton",
         "nationalite": ["fr"],
         "role": "Kinésithérapeute",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/"
       },
       {
         "prenom": "Baptiste",
         "nom": "Courtois",
         "nationalite": ["fr"],
         "role": "Kinésithérapeute osthéopathe",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/courtois.png"
       },
       {
         "prenom": "Simon",
         "nom": "Nouteau",
         "nationalite": ["fr"],
         "role": "Kinésithérapeute osthéopathe",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/nouteau.png"
       },
       {
         "prenom": "Pepe",
         "nom": "Fernandez Aranegas",
         "nationalite": ["es"],
         "role": "Nutritionniste",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/fernandez.png"
       }
     ],
     "video": [
@@ -369,28 +369,28 @@
         "nom": "Gonin",
         "nationalite": ["fr"],
         "role": "Analyste vidéo",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/gonin.png"
       },
       {
         "prenom": "Olivier",
         "nom": "Petitjean",
         "nationalite": ["fr"],
         "role": "Analyste vidéo",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/petitjean.png"
       },
       {
         "prenom": "Anthony",
         "nom": "Michel",
         "nationalite": ["fr"],
         "role": "Analyste vidéo",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/michel.png"
       },
       {
         "prenom": "Julien",
         "nom": "Le Goux",
         "nationalite": ["fr"],
         "role": "Analyste vidéo",
-        "photo": "lien_vers_la_photo_messi.jpg"
+        "photo": "/img/playerfaces/pro/staff/legoux.png"
       }
     ]
   }
