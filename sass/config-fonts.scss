@@ -1,144 +1,170 @@
 @font-face {
-    font-family: 'Dusha';
-    src: url('.//fonts/DushaRegular.woff2') format('woff2'),
-        url('.//fonts/DushaRegular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Dusha";
+  src: url(".//fonts/DushaRegular.woff2") format("woff2"),
+    url(".//fonts/DushaRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato';
-    src: url('.//fonts/Lato-BoldItalic.woff2') format('woff2'),
-        url('.//fonts/Lato-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: "Lato";
+  src: url(".//fonts/Lato-BoldItalic.woff2") format("woff2"),
+    url(".//fonts/Lato-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato';
-    src: url('.//fonts/Lato-Bold.woff2') format('woff2'),
-        url('.//fonts/Lato-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Lato";
+  src: url(".//fonts/Lato-Bold.woff2") format("woff2"),
+    url(".//fonts/Lato-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Dusha';
-    src: url('.//fonts/DushaRegular.woff2') format('woff2'),
-        url('.//fonts/DushaRegular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Dusha";
+  src: url(".//fonts/DushaRegular.woff2") format("woff2"),
+    url(".//fonts/DushaRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato';
-    src: url('.//fonts/Lato-Italic.woff2') format('woff2'),
-        url('.//fonts/Lato-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: "Lato";
+  src: url(".//fonts/Lato-Italic.woff2") format("woff2"),
+    url(".//fonts/Lato-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato';
-    src: url('.//fonts/Lato-Light.woff2') format('woff2'),
-        url('.//fonts/Lato-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Lato";
+  src: url(".//fonts/Lato-Light.woff2") format("woff2"),
+    url(".//fonts/Lato-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato';
-    src: url('.//fonts/Lato-LightItalic.woff2') format('woff2'),
-        url('.//fonts/Lato-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: "Lato";
+  src: url(".//fonts/Lato-LightItalic.woff2") format("woff2"),
+    url(".//fonts/Lato-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato';
-    src: url('.//fonts/Lato-Regular.woff2') format('woff2'),
-        url('.//fonts/Lato-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Lato";
+  src: url(".//fonts/Lato-Regular.woff2") format("woff2"),
+    url(".//fonts/Lato-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato';
-    src: url('.//fonts/Lato-Semibold.woff2') format('woff2'),
-        url('.//fonts/Lato-Semibold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Lato";
+  src: url(".//fonts/Lato-Semibold.woff2") format("woff2"),
+    url(".//fonts/Lato-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato';
-    src: url('.//fonts/Lato-SemiboldItalic.woff2') format('woff2'),
-        url('.//fonts/Lato-SemiboldItalic.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
+  font-family: "Lato";
+  src: url(".//fonts/Lato-SemiboldItalic.woff2") format("woff2"),
+    url(".//fonts/Lato-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gentium';
-    src: url('.//fonts/GentiumBasic-Bold.woff2') format('woff2'),
-        url('.//fonts/GentiumBasic-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Gentium";
+  src: url(".//fonts/GentiumBasic-Bold.woff2") format("woff2"),
+    url(".//fonts/GentiumBasic-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gentium';
-    src: url('.//fonts/GentiumBasic.woff2') format('woff2'),
-        url('.//fonts/GentiumBasic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Gentium";
+  src: url(".//fonts/GentiumBasic.woff2") format("woff2"),
+    url(".//fonts/GentiumBasic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gentium';
-    src: url('.//fonts/GentiumBasic-BoldItalic.woff2') format('woff2'),
-        url('.//fonts/GentiumBasic-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: "Gentium";
+  src: url(".//fonts/GentiumBasic-BoldItalic.woff2") format("woff2"),
+    url(".//fonts/GentiumBasic-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gentium';
-    src: url('.//fonts/GentiumBasic-Italic.woff2') format('woff2'),
-        url('.//fonts/GentiumBasic-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: "Gentium";
+  src: url(".//fonts/GentiumBasic-Italic.woff2") format("woff2"),
+    url(".//fonts/GentiumBasic-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Ashemore';
-    src: url('.//fonts/AshemoreW01-NormBold.woff2') format('woff2'),
-        url('.//fonts/AshemoreW01-NormBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Ashemore";
+  src: url(".//fonts/AshemoreW01-NormBold.woff2") format("woff2"),
+    url(".//fonts/AshemoreW01-NormBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Ashemore';
-    src: url('.//fonts/AshemoreW01-NormBold.woff2') format('woff2'),
-        url('.//fonts/AshemoreW01-NormBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Ashemore";
+  src: url(".//fonts/AshemoreW01-NormBold.woff2") format("woff2"),
+    url(".//fonts/AshemoreW01-NormBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
+@font-face {
+  font-family: "Chelsea Basis";
+  src: url(".//fonts/ChelseaBasis-Medium.woff2") format("woff2"),
+    url(".//fonts/ChelseaBasis-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Chelsea Basis";
+  src: url(".//fonts/ChelseaBasis-Bold.woff2") format("woff2"),
+    url(".//fonts/ChelseaBasis-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Chelsea Basis";
+  src: url(".//fonts/ChelseaBasis-Regular.woff2") format("woff2"),
+    url(".//fonts/ChelseaBasis-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -91,10 +91,10 @@
         overflow-y: hidden;
 
         .news-list-title {
-          font-family: $ff-strong;
           padding: 10px;
           border-bottom: 5px solid #000000;
           font-size: 30px;
+          line-height: 1rem;
         }
 
         ul {

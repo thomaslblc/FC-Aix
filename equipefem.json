@@ -1,0 +1,271 @@
+{
+  "joueurs": {
+    "goalkeepers": [
+      {
+        "prenom": "Lieke",
+        "nom": "Van den Berg",
+        "nationalite": ["nl"],
+        "numeroMaillot": 1,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Elise",
+        "nom": "Laurenté",
+        "nationalite": ["fr"],
+        "numeroMaillot": 16,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Lila",
+        "nom": "Toussaint",
+        "nationalite": ["fr"],
+        "numeroMaillot": 30,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      }
+    ],
+    "defenders": [
+      {
+        "prenom": "Nina",
+        "nom": "Bouchiba",
+        "nationalite": ["fr"],
+        "numeroMaillot": 4,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Sophie",
+        "nom": "Chevalier",
+        "nationalite": ["fr"],
+        "numeroMaillot": 12,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Amelia",
+        "nom": "Turner",
+        "nationalite": ["gb-eng"],
+        "numeroMaillot": 3,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Harper",
+        "nom": "Brown",
+        "nationalite": ["gb-eng"],
+        "numeroMaillot": 6,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Anna",
+        "nom": "De Boer",
+        "nationalite": ["nl"],
+        "numeroMaillot": 2,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Elin",
+        "nom": "Olsen",
+        "nationalite": ["se"],
+        "numeroMaillot": 99,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      }
+    ],
+    "midfielders": [
+      {
+        "prenom": "Yasmina",
+        "nom": "Khelifi",
+        "nationalite": ["dz", "fr"],
+        "numeroMaillot": 18,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Leila",
+        "nom": "Amari",
+        "nationalite": ["fr"],
+        "numeroMaillot": 19,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Lina",
+        "nom": "Abadi",
+        "nationalite": ["fr"],
+        "numeroMaillot": 8,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Sofia",
+        "nom": "De Luca",
+        "nationalite": ["it"],
+        "numeroMaillot": 99,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "nom": "Luciana",
+        "nationalite": ["br"],
+        "numeroMaillot": 99,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      }
+    ],
+    "forwards": [
+      {
+        "prenom": "Aissatou",
+        "nom": "Diop",
+        "nationalite": ["fr", "sn"],
+        "numeroMaillot": 7,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Fatou",
+        "nom": "Ndiaye",
+        "nationalite": ["sn"],
+        "numeroMaillot": 13,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Eva",
+        "nom": "Nguyen",
+        "nationalite": ["fr"],
+        "numeroMaillot": 11,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Elena",
+        "nom": "Duval",
+        "nationalite": ["fr"],
+        "numeroMaillot": 27,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Clara",
+        "nom": "Navarro",
+        "nationalite": ["es"],
+        "numeroMaillot": 20,
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      }
+    ]
+  },
+  "staff": {
+    "technique": [
+      {
+        "prenom": "Emma",
+        "nom": "Garnier",
+        "nationalite": ["fr"],
+        "role": "Entraîneuse",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Léna",
+        "nom": "Rolland",
+        "nationalite": ["fr"],
+        "role": "Entraîneuse adjointe",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Ana-Maria",
+        "nom": "Rodriguez",
+        "nationalite": ["es"],
+        "role": "Préparatrice",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Mathieu",
+        "nom": "Deprès",
+        "nationalite": ["fr"],
+        "role": "Préparateur",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Emilie",
+        "nom": "Leclerc",
+        "nationalite": ["fr"],
+        "role": "Préparatrice",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Théo",
+        "nom": "Rousseau",
+        "nationalite": ["fr"],
+        "role": "Préparateur physique",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Eva",
+        "nom": "Blanc",
+        "nationalite": ["fr"],
+        "role": "Préparatrice physique",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Javier",
+        "nom": "Morales",
+        "nationalite": ["ar"],
+        "role": "Entraîneur des gardiennes",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Maëlle",
+        "nom": "Pinot",
+        "nationalite": ["fr"],
+        "role": "Entraîneuse des gardiennes",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      }
+    ],
+    "medical": [
+      {
+        "prenom": "Raphaëlle",
+        "nom": "Lefèbvre",
+        "nationalite": ["fr"],
+        "role": "Directrice médical",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Léa",
+        "nom": "Martinelli",
+        "nationalite": ["fr"],
+        "role": "Médecin",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Lucas",
+        "nom": "Moreau",
+        "nationalite": ["fr"],
+        "role": "Médecin",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Inès",
+        "nom": "Mercier",
+        "nationalite": ["fr"],
+        "role": "Kinésithérapeute",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Chloé",
+        "nom": "Dubois",
+        "nationalite": ["fr"],
+        "role": "Kinésithérapeute osthéopathe",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Claire",
+        "nom": "Raynaud",
+        "nationalite": ["fr"],
+        "role": "Nutritionniste",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      }
+    ],
+    "video": [
+      {
+        "prenom": "Ella",
+        "nom": "Thompson",
+        "nationalite": ["ca"],
+        "role": "Analyste vidéo",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      },
+      {
+        "prenom": "Sébastien",
+        "nom": "Leroy",
+        "nationalite": ["fr"],
+        "role": "Analyste vidéo",
+        "photo": "/img/playerfaces/placeholder-portrait.png"
+      }
+    ]
+  }
+}

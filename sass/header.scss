@@ -43,28 +43,6 @@ header {
       #right-top {
         margin-left: auto;
 
-        .SearchBar {
-          display: flex;
-          .SearchText {
-            border: none;
-            padding: 5px;
-            font-weight: bold;
-            font-size: 16px;
-            padding-left: 15px;
-            border-radius: 15px 0px 0px 15px;
-          }
-
-          .SearchButton {
-            border-radius: 0 15px 15px 0;
-            background-color: #ffffff;
-            font-weight: bold;
-            border-radius: 0 16px 16px 0;
-            border: none;
-            font-size: 16px;
-            padding: 5px 10px;
-          }
-        }
-
         li {
           margin-right: 0;
 

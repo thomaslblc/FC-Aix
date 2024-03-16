@@ -311,7 +311,7 @@
         "nom": "Haddad",
         "nationalite": ["fr"],
         "role": "Directrice médical",
-        "photo": "/img/playerfaces/pro/staff/"
+        "photo": "/img/playerfaces/placeholder-portrait.png"
       },
       {
         "prenom": "Martin",
@@ -339,7 +339,7 @@
         "nom": "Betton",
         "nationalite": ["fr"],
         "role": "Kinésithérapeute",
-        "photo": "/img/playerfaces/pro/staff/"
+        "photo": "/img/playerfaces/placeholder-portrait.png"
       },
       {
         "prenom": "Baptiste",

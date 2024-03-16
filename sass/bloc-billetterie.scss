@@ -30,7 +30,6 @@
 
       h3 {
         font-size: 22px;
-        font-family: $ff-strong;
       }
 
       &.stadium-tour {
@@ -63,7 +62,7 @@
           position: absolute;
           z-index: 0;
           content: "";
-          background-image: url(../img/runway1.jpg);
+          background-image: url(../img/illustrations/stade-1.jpg);
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
@@ -96,7 +95,7 @@
           position: absolute;
           z-index: 0;
           content: "";
-          background-image: url(../img/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg);
+          background-image: url(../img/illustrations/FDL.png);
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
@@ -185,7 +184,7 @@
           position: absolute;
           z-index: 0;
           content: "";
-          background-image: url(../img/rcde-stadium-trophees-2021-09-30-illus.jpg);
+          background-image: url(../img/illustrations/bg-trophy.jpg);
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;

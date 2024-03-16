@@ -26,22 +26,28 @@ ul {
   padding: 0;
 }
 
+section {
+  padding: $space-between-section 0;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+  padding: 5rem 0;
+  font-size: 40px;
+  font-family: $ff-title;
+}
+
 h2 {
   margin: 0;
-  padding: 20px;
-  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 20px;
   letter-spacing: 2px;
-  font-family: $ff-title;
+  font-family: $ff-title;text-transform: uppercase;
+}
 
-  strong {
-    font-family: $ff-strong;
-    font-size: 50px;
-    display: block;
-    margin-top: 10px;
-    font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-  }
+h3 {
+  font-family: $ff-title;
 }
 
 .button {
@@ -81,35 +87,6 @@ h2 {
   }
 }
 
-// JOUEURS ET STAFF //
-
-.team-filter-container {
-  text-align: center;
-
-  ul {
-    display: flex;
-    justify-content: space-between;
-    max-width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 2rem auto;
-
-    .li {
-      background-color: #ffffff;
-      border: 2px solid $color-3;
-      padding: 2px 5px;
-      color: $color-3;
-
-      &:hover {
-        background-color: $color-3;
-        color: #ffffff;
-        cursor: pointer;
-      }
-
-      &.filter-active {
-        background-color: $color-3;
-        color: #ffffff;
-      }
-    }
-  }
+.hidden {
+  display: none;
 }

@@ -111,6 +111,27 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Chelsea Basis";
+  src: url(".//fonts/ChelseaBasis-Medium.woff2") format("woff2"), url(".//fonts/ChelseaBasis-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chelsea Basis";
+  src: url(".//fonts/ChelseaBasis-Bold.woff2") format("woff2"), url(".//fonts/ChelseaBasis-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chelsea Basis";
+  src: url(".//fonts/ChelseaBasis-Regular.woff2") format("woff2"), url(".//fonts/ChelseaBasis-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 * {
   font-family: "Lato", sans-serif;
   box-sizing: border-box;
@@ -139,21 +160,29 @@ ul {
   padding: 0;
 }
 
+section {
+  padding: 70px 0;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+  padding: 5rem 0;
+  font-size: 40px;
+  font-family: "Chelsea Basis", sans-serif;
+}
+
 h2 {
   margin: 0;
-  padding: 20px;
-  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 20px;
   letter-spacing: 2px;
-  font-family: "Gentium", sans-serif;
-}
-h2 strong {
-  font-family: "Dusha", sans-serif;
-  font-size: 50px;
-  display: block;
-  margin-top: 10px;
-  font-style: normal;
+  font-family: "Chelsea Basis", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 4px;
+}
+
+h3 {
+  font-family: "Chelsea Basis", sans-serif;
 }
 
 .button {
@@ -187,31 +216,8 @@ h2 strong {
   color: #ffffff;
 }
 
-.team-filter-container {
-  text-align: center;
-}
-.team-filter-container ul {
-  display: flex;
-  justify-content: space-between;
-  max-width: 45%;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 2rem auto;
-}
-.team-filter-container ul .li {
-  background-color: #ffffff;
-  border: 2px solid #8d042d;
-  padding: 2px 5px;
-  color: #8d042d;
-}
-.team-filter-container ul .li:hover {
-  background-color: #8d042d;
-  color: #ffffff;
-  cursor: pointer;
-}
-.team-filter-container ul .li.filter-active {
-  background-color: #8d042d;
-  color: #ffffff;
+.hidden {
+  display: none;
 }
 
 .inner {
@@ -257,26 +263,6 @@ header .topbar ul #left-top li {
 }
 header .topbar ul #right-top {
   margin-left: auto;
-}
-header .topbar ul #right-top .SearchBar {
-  display: flex;
-}
-header .topbar ul #right-top .SearchBar .SearchText {
-  border: none;
-  padding: 5px;
-  font-weight: bold;
-  font-size: 16px;
-  padding-left: 15px;
-  border-radius: 15px 0px 0px 15px;
-}
-header .topbar ul #right-top .SearchBar .SearchButton {
-  border-radius: 0 15px 15px 0;
-  background-color: #ffffff;
-  font-weight: bold;
-  border-radius: 0 16px 16px 0;
-  border: none;
-  font-size: 16px;
-  padding: 5px 10px;
 }
 header .topbar ul #right-top li {
   margin-right: 0;
@@ -458,10 +444,10 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   overflow-y: hidden;
 }
 .bloc-actu .inner .news-container .news-list .news-list-title {
-  font-family: "Dusha", sans-serif;
   padding: 10px;
   border-bottom: 5px solid #000000;
   font-size: 30px;
+  line-height: 1rem;
 }
 .bloc-actu .inner .news-container .news-list ul .news-item {
   border-bottom: solid 2px rgba(0, 0, 0, 0.2);
@@ -550,13 +536,10 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
 .bloc-matchs .bloc-matchs-content .match-main .leaderboard-container h3,
 .bloc-matchs .bloc-matchs-content .match-main .next-match h3 {
   font-size: 22px;
-  font-family: "Dusha", sans-serif;
 }
 .bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .competition-infos .last-match-stadium,
 .bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.last-match .competition-infos .last-match-stadium,
 .bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .competition-infos .last-match-stadium {
-  font-family: "Gentium";
-  font-style: italic;
   font-weight: bold;
   font-size: 18px;
 }
@@ -582,7 +565,6 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
 .bloc-matchs .bloc-matchs-content .match-main .last-match.last-match .last-match-result .score,
 .bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.last-match .last-match-result .score,
 .bloc-matchs .bloc-matchs-content .match-main .next-match.last-match .last-match-result .score {
-  font-family: "Dusha", sans-serif;
   font-size: 28px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   padding: 5px 12px;
@@ -667,8 +649,6 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
 .bloc-matchs .bloc-matchs-content .match-main .last-match.next-match .next-match-infos .competition-infos .next-match-stadium,
 .bloc-matchs .bloc-matchs-content .match-main .leaderboard-container.next-match .next-match-infos .competition-infos .next-match-stadium,
 .bloc-matchs .bloc-matchs-content .match-main .next-match.next-match .next-match-infos .competition-infos .next-match-stadium {
-  font-family: "Gentium";
-  font-style: italic;
   font-weight: bold;
   font-size: 18px;
 }
@@ -795,7 +775,6 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
 .bloc-billetterie .billetterie-main .museum h3,
 .bloc-billetterie .billetterie-main .next-match h3 {
   font-size: 22px;
-  font-family: "Dusha", sans-serif;
 }
 .bloc-billetterie .billetterie-main .stadium-tour.stadium-tour,
 .bloc-billetterie .billetterie-main .museum.stadium-tour,
@@ -839,7 +818,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   position: absolute;
   z-index: 0;
   content: "";
-  background-image: url(../img/runway1.jpg);
+  background-image: url(../img/illustrations/stade-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -875,7 +854,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   position: absolute;
   z-index: 0;
   content: "";
-  background-image: url(../img/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg);
+  background-image: url(../img/illustrations/FDL.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -977,7 +956,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   position: absolute;
   z-index: 0;
   content: "";
-  background-image: url(../img/rcde-stadium-trophees-2021-09-30-illus.jpg);
+  background-image: url(../img/illustrations/bg-trophy.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1163,6 +1142,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   margin: 0;
   position: relative;
   height: 210px;
+  padding: 0;
 }
 .cover .image-container {
   position: absolute;
@@ -1182,12 +1162,6 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   display: flex;
   align-items: center;
   height: 100%;
-}
-.cover h1 {
-  margin: 0;
-  color: #fff;
-  padding: 5rem 0;
-  font-size: 40px;
 }
 
 .paragraphe,
@@ -1267,10 +1241,10 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   padding: 70px 0;
 }
 .team-layout-container h2 {
-  padding-left: 0;
-  padding-right: 0;
-  font-size: 26px;
-  font-family: "Lato", sans-serif;
+  margin: 3rem 0;
+}
+.team-layout-container h2:first-child {
+  margin-top: 0;
 }
 .team-layout-container .team-layout {
   display: flex;
@@ -1315,14 +1289,16 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
 .team-layout-container .team-layout .team-cards-display .player-card .contenu .infos span {
   text-transform: uppercase;
   font-size: 12px;
+  font-family: "Chelsea Basis", sans-serif;
 }
 .team-layout-container .team-layout .team-cards-display .player-card .contenu .infos span strong {
   display: block;
   text-transform: none;
   font-size: 26px;
+  font-family: "Chelsea Basis", sans-serif;
 }
 .team-layout-container .team-layout .team-cards-display .player-card .contenu .infos p {
-  margin: 0;
+  margin-bottom: 0;
 }
 .team-layout-container .team-layout .team-cards-display .player-card .contenu .infos p .flag-icon {
   margin-right: 10px;
@@ -1338,6 +1314,7 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
   line-height: 1em;
   font-weight: bold;
   opacity: 0.2;
+  font-family: "Chelsea Basis", sans-serif;
 }
 .team-layout-container .team-layout .team-cards-display .player-card.staff .contenu {
   flex-direction: column;
@@ -1354,9 +1331,37 @@ footer .footer-links .footer-container .footer-aside .footer-logos img:last-chil
 }
 .team-layout-container .team-layout .team-cards-display .player-card.staff .contenu .role p {
   margin: 0;
-  font-family: "Gentium", sans-serif;
+  font-family: "Chelsea Basis", sans-serif;
   font-size: 18px;
   text-decoration: underline;
+}
+
+.team-filter-container {
+  background-color: #eeeeee;
+  padding: 20px 0;
+}
+.team-filter-container ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2rem auto;
+}
+.team-filter-container ul li {
+  background-color: #ffffff;
+  border: 2px solid #8d042d;
+  padding: 2px 10px;
+  color: #8d042d;
+}
+.team-filter-container ul li:hover {
+  background-color: #8d042d;
+  color: #ffffff;
+  cursor: pointer;
+}
+.team-filter-container ul li.filter-active {
+  background-color: #8d042d;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=index.css.map */
